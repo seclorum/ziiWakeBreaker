@@ -1,0 +1,12 @@
+Title: Wake Breaker
+Category: Game
+Platform: x86 (Hybrid Graphics OpenGL ES 1.1 implementations)
+Desc: A high speed water race between you and the computer through a beautiful ocean environment.  The boats pound the water behind them as they speed, through the randomly generated courses.  Each ocean environment does not only features reflections and the option of turning fog on and off, but like the race course, is different everytime you play.
+
+Controls are as follows
+UP - accelerate
+RIGHT - turn right
+LEFT - turn left
+DOWN - reverse
+NUMPAD1 - turn fog on
+NUMPAD2 - turn fog off

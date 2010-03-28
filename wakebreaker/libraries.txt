@@ -1,0 +1,5 @@
+Libraries
+No special libraries were used, just the standard windows libraries and of course the libGLES_CM.dll (gerbera-2.0.3)
+
+Extensions
+GL_POINT_DISTANCE_ATTENUATION was used.

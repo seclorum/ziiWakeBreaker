@@ -1,0 +1,4764 @@
+<?xml version="1.0"?>
+<dia:diagram xmlns:dia="http://www.lysator.liu.se/~alla/dia/">
+  <dia:diagramdata>
+    <dia:attribute name="background">
+      <dia:color val="#ffffff"/>
+    </dia:attribute>
+    <dia:attribute name="paper">
+      <dia:composite type="paper">
+        <dia:attribute name="name">
+          <dia:string>#A4#</dia:string>
+        </dia:attribute>
+        <dia:attribute name="tmargin">
+          <dia:real val="2.82"/>
+        </dia:attribute>
+        <dia:attribute name="bmargin">
+          <dia:real val="2.82"/>
+        </dia:attribute>
+        <dia:attribute name="lmargin">
+          <dia:real val="2.82"/>
+        </dia:attribute>
+        <dia:attribute name="rmargin">
+          <dia:real val="2.82"/>
+        </dia:attribute>
+        <dia:attribute name="is_portrait">
+          <dia:boolean val="true"/>
+        </dia:attribute>
+        <dia:attribute name="scaling">
+          <dia:real val="1"/>
+        </dia:attribute>
+        <dia:attribute name="fitto">
+          <dia:boolean val="false"/>
+        </dia:attribute>
+      </dia:composite>
+    </dia:attribute>
+    <dia:attribute name="grid">
+      <dia:composite type="grid">
+        <dia:attribute name="width_x">
+          <dia:real val="1"/>
+        </dia:attribute>
+        <dia:attribute name="width_y">
+          <dia:real val="1"/>
+        </dia:attribute>
+        <dia:attribute name="visible_x">
+          <dia:int val="1"/>
+        </dia:attribute>
+        <dia:attribute name="visible_y">
+          <dia:int val="1"/>
+        </dia:attribute>
+      </dia:composite>
+    </dia:attribute>
+    <dia:attribute name="guides">
+      <dia:composite type="guides">
+        <dia:attribute name="hguides"/>
+        <dia:attribute name="vguides"/>
+      </dia:composite>
+    </dia:attribute>
+  </dia:diagramdata>
+  <dia:layer name="Background" visible="true">
+    <dia:object type="UML - Class" version="0" id="O0">
+      <dia:attribute name="obj_pos">
+        <dia:point val="56.700,-6.750"/>
+      </dia:attribute>
+      <dia:attribute name="obj_bb">
+        <dia:rectangle val="56.700,-6.750;65.700,0.850"/>
+      </dia:attribute>
+      <dia:attribute name="elem_corner">
+        <dia:point val="56.700,-6.750"/>
+      </dia:attribute>
+      <dia:attribute name="elem_width">
+        <dia:real val="9.000"/>
+      </dia:attribute>
+      <dia:attribute name="elem_height">
+        <dia:real val="7.600"/>
+      </dia:attribute>
+      <dia:attribute name="name">
+        <dia:string>#Camera#</dia:string>
+      </dia:attribute>
+      <dia:attribute name="stereotype">
+              <dia:string/>
+            </dia:attribute>
+      <dia:attribute name="abstract">
+        <dia:boolean val="false"/>
+      </dia:attribute>
+      <dia:attribute name="suppress_attributes">
+        <dia:boolean val="false"/>
+      </dia:attribute>
+      <dia:attribute name="suppress_operations">
+        <dia:boolean val="false"/>
+      </dia:attribute>
+      <dia:attribute name="visible_attributes">
+        <dia:boolean val="true"/>
+      </dia:attribute>
+      <dia:attribute name="visible_operations">
+        <dia:boolean val="true"/>
+      </dia:attribute>
+      <dia:attribute name="foreground_color">
+        <dia:color val="#000000"/>
+      </dia:attribute>
+      <dia:attribute name="background_color">
+        <dia:color val="#ffffff"/>
+      </dia:attribute>
+
+            <dia:attribute name="attributes">
+                <dia:composite type="umlattribute">
+          <dia:attribute name="name">
+            <dia:string>#r#</dia:string>
+          </dia:attribute>
+          <dia:attribute name="type">
+            <dia:string>#m_di#</dia:string>
+          </dia:attribute>
+          <dia:attribute name="value">
+            <dia:string></dia:string>
+          </dia:attribute>
+          <dia:attribute name="visibility">
+            <dia:enum val="1"/>
+          </dia:attribute>
+          <dia:attribute name="abstract">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+          <dia:attribute name="class_scope">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+        </dia:composite>
+              </dia:attribute>
+                  <dia:attribute name="operations">
+                <dia:composite type="umloperation">
+          <dia:attribute name="name">
+            <dia:string>#Camera#</dia:string>
+          </dia:attribute>
+          <dia:attribute name="type">
+	  	     <dia:string/>
+	            </dia:attribute>
+          <dia:attribute name="visibility">
+            <dia:enum val="0"/>
+          </dia:attribute>
+          <dia:attribute name="abstract">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+          <dia:attribute name="class_scope">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+	  	  <dia:attribute name = "parameters"/>
+	          </dia:composite>
+                <dia:composite type="umloperation">
+          <dia:attribute name="name">
+            <dia:string>#Translate#</dia:string>
+          </dia:attribute>
+          <dia:attribute name="type">
+	              <dia:string>#void #</dia:string>
+	            </dia:attribute>
+          <dia:attribute name="visibility">
+            <dia:enum val="0"/>
+          </dia:attribute>
+          <dia:attribute name="abstract">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+          <dia:attribute name="class_scope">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+	            <dia:attribute name="parameters">
+                        <dia:composite type="umlparameter">
+              <dia:attribute name="name">
+                <dia:string>#trans#</dia:string>
+              </dia:attribute>
+              <dia:attribute name="type">
+                <dia:string>#Vector3&amp;amp;#</dia:string>
+              </dia:attribute>
+              <dia:attribute name="value">
+                              <dia:enum val="0"/>
+                            </dia:attribute>
+              <dia:attribute name="kind">
+                              <dia:enum val="0"/>
+                            </dia:attribute>
+            </dia:composite>
+                      </dia:attribute>
+	          </dia:composite>
+                <dia:composite type="umloperation">
+          <dia:attribute name="name">
+            <dia:string>#LookAt#</dia:string>
+          </dia:attribute>
+          <dia:attribute name="type">
+	              <dia:string>#void #</dia:string>
+	            </dia:attribute>
+          <dia:attribute name="visibility">
+            <dia:enum val="0"/>
+          </dia:attribute>
+          <dia:attribute name="abstract">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+          <dia:attribute name="class_scope">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+	            <dia:attribute name="parameters">
+                        <dia:composite type="umlparameter">
+              <dia:attribute name="name">
+                <dia:string>#pos#</dia:string>
+              </dia:attribute>
+              <dia:attribute name="type">
+                <dia:string>#Vector3&amp;amp;#</dia:string>
+              </dia:attribute>
+              <dia:attribute name="value">
+                              <dia:enum val="0"/>
+                            </dia:attribute>
+              <dia:attribute name="kind">
+                              <dia:enum val="0"/>
+                            </dia:attribute>
+            </dia:composite>
+                        <dia:composite type="umlparameter">
+              <dia:attribute name="name">
+                <dia:string>#center#</dia:string>
+              </dia:attribute>
+              <dia:attribute name="type">
+                <dia:string>#Vector3&amp;amp;#</dia:string>
+              </dia:attribute>
+              <dia:attribute name="value">
+                              <dia:enum val="0"/>
+                            </dia:attribute>
+              <dia:attribute name="kind">
+                              <dia:enum val="0"/>
+                            </dia:attribute>
+            </dia:composite>
+                        <dia:composite type="umlparameter">
+              <dia:attribute name="name">
+                <dia:string>#up#</dia:string>
+              </dia:attribute>
+              <dia:attribute name="type">
+                <dia:string>#Vector3&amp;amp;#</dia:string>
+              </dia:attribute>
+              <dia:attribute name="value">
+                              <dia:enum val="0"/>
+                            </dia:attribute>
+              <dia:attribute name="kind">
+                              <dia:enum val="0"/>
+                            </dia:attribute>
+            </dia:composite>
+                      </dia:attribute>
+	          </dia:composite>
+                <dia:composite type="umloperation">
+          <dia:attribute name="name">
+            <dia:string>#Direction#</dia:string>
+          </dia:attribute>
+          <dia:attribute name="type">
+	              <dia:string>#const Vector3&amp;#</dia:string>
+	            </dia:attribute>
+          <dia:attribute name="visibility">
+            <dia:enum val="0"/>
+          </dia:attribute>
+          <dia:attribute name="abstract">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+          <dia:attribute name="class_scope">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+	  	  <dia:attribute name = "parameters"/>
+	          </dia:composite>
+                <dia:composite type="umloperation">
+          <dia:attribute name="name">
+            <dia:string>#Position#</dia:string>
+          </dia:attribute>
+          <dia:attribute name="type">
+	              <dia:string>#const Vector3&amp;#</dia:string>
+	            </dia:attribute>
+          <dia:attribute name="visibility">
+            <dia:enum val="0"/>
+          </dia:attribute>
+          <dia:attribute name="abstract">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+          <dia:attribute name="class_scope">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+	  	  <dia:attribute name = "parameters"/>
+	          </dia:composite>
+                <dia:composite type="umloperation">
+          <dia:attribute name="name">
+            <dia:string>#Update#</dia:string>
+          </dia:attribute>
+          <dia:attribute name="type">
+	              <dia:string>#void #</dia:string>
+	            </dia:attribute>
+          <dia:attribute name="visibility">
+            <dia:enum val="0"/>
+          </dia:attribute>
+          <dia:attribute name="abstract">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+          <dia:attribute name="class_scope">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+	  	  <dia:attribute name = "parameters"/>
+	          </dia:composite>
+              </dia:attribute>
+            <dia:attribute name="template">
+        <dia:boolean val="false"/>
+      </dia:attribute>
+      <dia:attribute name="templates"/>
+    </dia:object>
+    <dia:object type="UML - Class" version="0" id="O1">
+      <dia:attribute name="obj_pos">
+        <dia:point val="44.100,-6.750"/>
+      </dia:attribute>
+      <dia:attribute name="obj_bb">
+        <dia:rectangle val="44.100,-6.750;46.100,-4.750"/>
+      </dia:attribute>
+      <dia:attribute name="elem_corner">
+        <dia:point val="44.100,-6.750"/>
+      </dia:attribute>
+      <dia:attribute name="elem_width">
+        <dia:real val="2.000"/>
+      </dia:attribute>
+      <dia:attribute name="elem_height">
+        <dia:real val="2.000"/>
+      </dia:attribute>
+      <dia:attribute name="name">
+        <dia:string>#Color4#</dia:string>
+      </dia:attribute>
+      <dia:attribute name="stereotype">
+              <dia:string/>
+            </dia:attribute>
+      <dia:attribute name="abstract">
+        <dia:boolean val="false"/>
+      </dia:attribute>
+      <dia:attribute name="suppress_attributes">
+        <dia:boolean val="false"/>
+      </dia:attribute>
+      <dia:attribute name="suppress_operations">
+        <dia:boolean val="false"/>
+      </dia:attribute>
+      <dia:attribute name="visible_attributes">
+        <dia:boolean val="true"/>
+      </dia:attribute>
+      <dia:attribute name="visible_operations">
+        <dia:boolean val="true"/>
+      </dia:attribute>
+      <dia:attribute name="foreground_color">
+        <dia:color val="#000000"/>
+      </dia:attribute>
+      <dia:attribute name="background_color">
+        <dia:color val="#ffffff"/>
+      </dia:attribute>
+
+            <dia:attribute name = "attributes"/>
+                  <dia:attribute name="operations"/>
+            <dia:attribute name="template">
+        <dia:boolean val="false"/>
+      </dia:attribute>
+      <dia:attribute name="templates"/>
+    </dia:object>
+    <dia:object type="UML - Class" version="0" id="O7">
+      <dia:attribute name="obj_pos">
+        <dia:point val="-31.500,-6.750"/>
+      </dia:attribute>
+      <dia:attribute name="obj_bb">
+        <dia:rectangle val="-31.500,-6.750;-22.500,20.050"/>
+      </dia:attribute>
+      <dia:attribute name="elem_corner">
+        <dia:point val="-31.500,-6.750"/>
+      </dia:attribute>
+      <dia:attribute name="elem_width">
+        <dia:real val="9.000"/>
+      </dia:attribute>
+      <dia:attribute name="elem_height">
+        <dia:real val="26.800"/>
+      </dia:attribute>
+      <dia:attribute name="name">
+        <dia:string>#Racer#</dia:string>
+      </dia:attribute>
+      <dia:attribute name="stereotype">
+              <dia:string/>
+            </dia:attribute>
+      <dia:attribute name="abstract">
+        <dia:boolean val="false"/>
+      </dia:attribute>
+      <dia:attribute name="suppress_attributes">
+        <dia:boolean val="false"/>
+      </dia:attribute>
+      <dia:attribute name="suppress_operations">
+        <dia:boolean val="false"/>
+      </dia:attribute>
+      <dia:attribute name="visible_attributes">
+        <dia:boolean val="true"/>
+      </dia:attribute>
+      <dia:attribute name="visible_operations">
+        <dia:boolean val="true"/>
+      </dia:attribute>
+      <dia:attribute name="foreground_color">
+        <dia:color val="#000000"/>
+      </dia:attribute>
+      <dia:attribute name="background_color">
+        <dia:color val="#ffffff"/>
+      </dia:attribute>
+
+            <dia:attribute name="attributes">
+                <dia:composite type="umlattribute">
+          <dia:attribute name="name">
+            <dia:string>#m_speed#</dia:string>
+          </dia:attribute>
+          <dia:attribute name="type">
+            <dia:string>#int32 #</dia:string>
+          </dia:attribute>
+          <dia:attribute name="value">
+            <dia:string></dia:string>
+          </dia:attribute>
+          <dia:attribute name="visibility">
+            <dia:enum val="1"/>
+          </dia:attribute>
+          <dia:attribute name="abstract">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+          <dia:attribute name="class_scope">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+        </dia:composite>
+                <dia:composite type="umlattribute">
+          <dia:attribute name="name">
+            <dia:string>#m_info#</dia:string>
+          </dia:attribute>
+          <dia:attribute name="type">
+            <dia:string>#Info*#</dia:string>
+          </dia:attribute>
+          <dia:attribute name="value">
+            <dia:string></dia:string>
+          </dia:attribute>
+          <dia:attribute name="visibility">
+            <dia:enum val="1"/>
+          </dia:attribute>
+          <dia:attribute name="abstract">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+          <dia:attribute name="class_scope">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+        </dia:composite>
+                <dia:composite type="umlattribute">
+          <dia:attribute name="name">
+            <dia:string>#m_nextCheckPoint#</dia:string>
+          </dia:attribute>
+          <dia:attribute name="type">
+            <dia:string>#int32 #</dia:string>
+          </dia:attribute>
+          <dia:attribute name="value">
+            <dia:string></dia:string>
+          </dia:attribute>
+          <dia:attribute name="visibility">
+            <dia:enum val="1"/>
+          </dia:attribute>
+          <dia:attribute name="abstract">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+          <dia:attribute name="class_scope">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+        </dia:composite>
+                <dia:composite type="umlattribute">
+          <dia:attribute name="name">
+            <dia:string>#m_currLap#</dia:string>
+          </dia:attribute>
+          <dia:attribute name="type">
+            <dia:string>#int32 #</dia:string>
+          </dia:attribute>
+          <dia:attribute name="value">
+            <dia:string></dia:string>
+          </dia:attribute>
+          <dia:attribute name="visibility">
+            <dia:enum val="1"/>
+          </dia:attribute>
+          <dia:attribute name="abstract">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+          <dia:attribute name="class_scope">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+        </dia:composite>
+                <dia:composite type="umlattribute">
+          <dia:attribute name="name">
+            <dia:string>#m_hasRotated#</dia:string>
+          </dia:attribute>
+          <dia:attribute name="type">
+            <dia:string>#bool #</dia:string>
+          </dia:attribute>
+          <dia:attribute name="value">
+            <dia:string></dia:string>
+          </dia:attribute>
+          <dia:attribute name="visibility">
+            <dia:enum val="1"/>
+          </dia:attribute>
+          <dia:attribute name="abstract">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+          <dia:attribute name="class_scope">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+        </dia:composite>
+                <dia:composite type="umlattribute">
+          <dia:attribute name="name">
+            <dia:string>#m_spray#</dia:string>
+          </dia:attribute>
+          <dia:attribute name="type">
+            <dia:string>#ParticleSystem*#</dia:string>
+          </dia:attribute>
+          <dia:attribute name="value">
+            <dia:string></dia:string>
+          </dia:attribute>
+          <dia:attribute name="visibility">
+            <dia:enum val="1"/>
+          </dia:attribute>
+          <dia:attribute name="abstract">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+          <dia:attribute name="class_scope">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+        </dia:composite>
+                <dia:composite type="umlattribute">
+          <dia:attribute name="name">
+            <dia:string>#RaceCourse#</dia:string>
+          </dia:attribute>
+          <dia:attribute name="type">
+            <dia:string>#class #</dia:string>
+          </dia:attribute>
+          <dia:attribute name="value">
+            <dia:string></dia:string>
+          </dia:attribute>
+          <dia:attribute name="visibility">
+            <dia:enum val="1"/>
+          </dia:attribute>
+          <dia:attribute name="abstract">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+          <dia:attribute name="class_scope">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+        </dia:composite>
+                <dia:composite type="umlattribute">
+          <dia:attribute name="name">
+            <dia:string>#m_nextCPPos#</dia:string>
+          </dia:attribute>
+          <dia:attribute name="type">
+            <dia:string>#Vector3 #</dia:string>
+          </dia:attribute>
+          <dia:attribute name="value">
+            <dia:string></dia:string>
+          </dia:attribute>
+          <dia:attribute name="visibility">
+            <dia:enum val="1"/>
+          </dia:attribute>
+          <dia:attribute name="abstract">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+          <dia:attribute name="class_scope">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+        </dia:composite>
+                <dia:composite type="umlattribute">
+          <dia:attribute name="name">
+            <dia:string>#m_desiredDir#</dia:string>
+          </dia:attribute>
+          <dia:attribute name="type">
+            <dia:string>#Vector3 #</dia:string>
+          </dia:attribute>
+          <dia:attribute name="value">
+            <dia:string></dia:string>
+          </dia:attribute>
+          <dia:attribute name="visibility">
+            <dia:enum val="1"/>
+          </dia:attribute>
+          <dia:attribute name="abstract">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+          <dia:attribute name="class_scope">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+        </dia:composite>
+                <dia:composite type="umlattribute">
+          <dia:attribute name="name">
+            <dia:string>#d#</dia:string>
+          </dia:attribute>
+          <dia:attribute name="type">
+            <dia:string>#m_finishe#</dia:string>
+          </dia:attribute>
+          <dia:attribute name="value">
+            <dia:string></dia:string>
+          </dia:attribute>
+          <dia:attribute name="visibility">
+            <dia:enum val="1"/>
+          </dia:attribute>
+          <dia:attribute name="abstract">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+          <dia:attribute name="class_scope">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+        </dia:composite>
+                <dia:composite type="umlattribute">
+          <dia:attribute name="name">
+            <dia:string>#m_dir#</dia:string>
+          </dia:attribute>
+          <dia:attribute name="type">
+            <dia:string>#Vector3 #</dia:string>
+          </dia:attribute>
+          <dia:attribute name="value">
+            <dia:string></dia:string>
+          </dia:attribute>
+          <dia:attribute name="visibility">
+            <dia:enum val="0"/>
+          </dia:attribute>
+          <dia:attribute name="abstract">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+          <dia:attribute name="class_scope">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+        </dia:composite>
+                <dia:composite type="umlattribute">
+          <dia:attribute name="name">
+            <dia:string>#m_ri#</dia:string>
+          </dia:attribute>
+          <dia:attribute name="type">
+            <dia:string>#RenderInstance*#</dia:string>
+          </dia:attribute>
+          <dia:attribute name="value">
+            <dia:string></dia:string>
+          </dia:attribute>
+          <dia:attribute name="visibility">
+            <dia:enum val="0"/>
+          </dia:attribute>
+          <dia:attribute name="abstract">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+          <dia:attribute name="class_scope">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+        </dia:composite>
+              </dia:attribute>
+                  <dia:attribute name="operations">
+                <dia:composite type="umloperation">
+          <dia:attribute name="name">
+            <dia:string>#BoundsCheck#</dia:string>
+          </dia:attribute>
+          <dia:attribute name="type">
+	              <dia:string>#void #</dia:string>
+	            </dia:attribute>
+          <dia:attribute name="visibility">
+            <dia:enum val="1"/>
+          </dia:attribute>
+          <dia:attribute name="abstract">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+          <dia:attribute name="class_scope">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+	  	  <dia:attribute name = "parameters"/>
+	          </dia:composite>
+                <dia:composite type="umloperation">
+          <dia:attribute name="name">
+            <dia:string>#NextCheckPoint#</dia:string>
+          </dia:attribute>
+          <dia:attribute name="type">
+	              <dia:string>#void #</dia:string>
+	            </dia:attribute>
+          <dia:attribute name="visibility">
+            <dia:enum val="1"/>
+          </dia:attribute>
+          <dia:attribute name="abstract">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+          <dia:attribute name="class_scope">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+	            <dia:attribute name="parameters">
+                        <dia:composite type="umlparameter">
+              <dia:attribute name="name">
+                <dia:string>#ncp#</dia:string>
+              </dia:attribute>
+              <dia:attribute name="type">
+                <dia:string>#int32#</dia:string>
+              </dia:attribute>
+              <dia:attribute name="value">
+                              <dia:enum val="0"/>
+                            </dia:attribute>
+              <dia:attribute name="kind">
+                              <dia:enum val="0"/>
+                            </dia:attribute>
+            </dia:composite>
+                      </dia:attribute>
+	          </dia:composite>
+                <dia:composite type="umloperation">
+          <dia:attribute name="name">
+            <dia:string>#CurrLap#</dia:string>
+          </dia:attribute>
+          <dia:attribute name="type">
+	              <dia:string>#void #</dia:string>
+	            </dia:attribute>
+          <dia:attribute name="visibility">
+            <dia:enum val="1"/>
+          </dia:attribute>
+          <dia:attribute name="abstract">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+          <dia:attribute name="class_scope">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+	            <dia:attribute name="parameters">
+                        <dia:composite type="umlparameter">
+              <dia:attribute name="name">
+                <dia:string>#cl#</dia:string>
+              </dia:attribute>
+              <dia:attribute name="type">
+                <dia:string>#int32#</dia:string>
+              </dia:attribute>
+              <dia:attribute name="value">
+                              <dia:enum val="0"/>
+                            </dia:attribute>
+              <dia:attribute name="kind">
+                              <dia:enum val="0"/>
+                            </dia:attribute>
+            </dia:composite>
+                      </dia:attribute>
+	          </dia:composite>
+                <dia:composite type="umloperation">
+          <dia:attribute name="name">
+            <dia:string>#NextCPPos#</dia:string>
+          </dia:attribute>
+          <dia:attribute name="type">
+	              <dia:string>#void #</dia:string>
+	            </dia:attribute>
+          <dia:attribute name="visibility">
+            <dia:enum val="1"/>
+          </dia:attribute>
+          <dia:attribute name="abstract">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+          <dia:attribute name="class_scope">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+	            <dia:attribute name="parameters">
+                        <dia:composite type="umlparameter">
+              <dia:attribute name="name">
+                <dia:string>#p#</dia:string>
+              </dia:attribute>
+              <dia:attribute name="type">
+                <dia:string>#Vector3&amp;amp;#</dia:string>
+              </dia:attribute>
+              <dia:attribute name="value">
+                              <dia:enum val="0"/>
+                            </dia:attribute>
+              <dia:attribute name="kind">
+                              <dia:enum val="0"/>
+                            </dia:attribute>
+            </dia:composite>
+                      </dia:attribute>
+	          </dia:composite>
+                <dia:composite type="umloperation">
+          <dia:attribute name="name">
+            <dia:string>#SetFinished#</dia:string>
+          </dia:attribute>
+          <dia:attribute name="type">
+	              <dia:string>#void #</dia:string>
+	            </dia:attribute>
+          <dia:attribute name="visibility">
+            <dia:enum val="1"/>
+          </dia:attribute>
+          <dia:attribute name="abstract">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+          <dia:attribute name="class_scope">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+	            <dia:attribute name="parameters">
+                        <dia:composite type="umlparameter">
+              <dia:attribute name="name">
+                <dia:string>#b#</dia:string>
+              </dia:attribute>
+              <dia:attribute name="type">
+                <dia:string>#bool#</dia:string>
+              </dia:attribute>
+              <dia:attribute name="value">
+                              <dia:enum val="0"/>
+                            </dia:attribute>
+              <dia:attribute name="kind">
+                              <dia:enum val="0"/>
+                            </dia:attribute>
+            </dia:composite>
+                      </dia:attribute>
+	          </dia:composite>
+                <dia:composite type="umloperation">
+          <dia:attribute name="name">
+            <dia:string>#Racer#</dia:string>
+          </dia:attribute>
+          <dia:attribute name="type">
+	  	     <dia:string/>
+	            </dia:attribute>
+          <dia:attribute name="visibility">
+            <dia:enum val="0"/>
+          </dia:attribute>
+          <dia:attribute name="abstract">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+          <dia:attribute name="class_scope">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+	  	  <dia:attribute name = "parameters"/>
+	          </dia:composite>
+                <dia:composite type="umloperation">
+          <dia:attribute name="name">
+            <dia:string>#~Racer#</dia:string>
+          </dia:attribute>
+          <dia:attribute name="type">
+	  	     <dia:string/>
+	            </dia:attribute>
+          <dia:attribute name="visibility">
+            <dia:enum val="0"/>
+          </dia:attribute>
+          <dia:attribute name="abstract">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+          <dia:attribute name="class_scope">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+	  	  <dia:attribute name = "parameters"/>
+	          </dia:composite>
+                <dia:composite type="umloperation">
+          <dia:attribute name="name">
+            <dia:string>#CurrLap#</dia:string>
+          </dia:attribute>
+          <dia:attribute name="type">
+	              <dia:string>#int32 #</dia:string>
+	            </dia:attribute>
+          <dia:attribute name="visibility">
+            <dia:enum val="0"/>
+          </dia:attribute>
+          <dia:attribute name="abstract">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+          <dia:attribute name="class_scope">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+	  	  <dia:attribute name = "parameters"/>
+	          </dia:composite>
+                <dia:composite type="umloperation">
+          <dia:attribute name="name">
+            <dia:string>#NextCheckPoint#</dia:string>
+          </dia:attribute>
+          <dia:attribute name="type">
+	              <dia:string>#int32 #</dia:string>
+	            </dia:attribute>
+          <dia:attribute name="visibility">
+            <dia:enum val="0"/>
+          </dia:attribute>
+          <dia:attribute name="abstract">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+          <dia:attribute name="class_scope">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+	  	  <dia:attribute name = "parameters"/>
+	          </dia:composite>
+                <dia:composite type="umloperation">
+          <dia:attribute name="name">
+            <dia:string>#IsFinished#</dia:string>
+          </dia:attribute>
+          <dia:attribute name="type">
+	              <dia:string>#bool #</dia:string>
+	            </dia:attribute>
+          <dia:attribute name="visibility">
+            <dia:enum val="0"/>
+          </dia:attribute>
+          <dia:attribute name="abstract">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+          <dia:attribute name="class_scope">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+	  	  <dia:attribute name = "parameters"/>
+	          </dia:composite>
+                <dia:composite type="umloperation">
+          <dia:attribute name="name">
+            <dia:string>#Initialize#</dia:string>
+          </dia:attribute>
+          <dia:attribute name="type">
+	              <dia:string>#void #</dia:string>
+	            </dia:attribute>
+          <dia:attribute name="visibility">
+            <dia:enum val="0"/>
+          </dia:attribute>
+          <dia:attribute name="abstract">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+          <dia:attribute name="class_scope">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+	            <dia:attribute name="parameters">
+                        <dia:composite type="umlparameter">
+              <dia:attribute name="name">
+                <dia:string>#info#</dia:string>
+              </dia:attribute>
+              <dia:attribute name="type">
+                <dia:string>#Info*#</dia:string>
+              </dia:attribute>
+              <dia:attribute name="value">
+                              <dia:enum val="0"/>
+                            </dia:attribute>
+              <dia:attribute name="kind">
+                              <dia:enum val="0"/>
+                            </dia:attribute>
+            </dia:composite>
+                        <dia:composite type="umlparameter">
+              <dia:attribute name="name">
+                <dia:string>#model#</dia:string>
+              </dia:attribute>
+              <dia:attribute name="type">
+                <dia:string>#int32#</dia:string>
+              </dia:attribute>
+              <dia:attribute name="value">
+                              <dia:enum val="0"/>
+                            </dia:attribute>
+              <dia:attribute name="kind">
+                              <dia:enum val="0"/>
+                            </dia:attribute>
+            </dia:composite>
+                      </dia:attribute>
+	          </dia:composite>
+                <dia:composite type="umloperation">
+          <dia:attribute name="name">
+            <dia:string>#IncreaseSpeed#</dia:string>
+          </dia:attribute>
+          <dia:attribute name="type">
+	              <dia:string>#inline void #</dia:string>
+	            </dia:attribute>
+          <dia:attribute name="visibility">
+            <dia:enum val="0"/>
+          </dia:attribute>
+          <dia:attribute name="abstract">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+          <dia:attribute name="class_scope">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+	            <dia:attribute name="parameters">
+                        <dia:composite type="umlparameter">
+              <dia:attribute name="name">
+                <dia:string>#s#</dia:string>
+              </dia:attribute>
+              <dia:attribute name="type">
+                <dia:string>#int32#</dia:string>
+              </dia:attribute>
+              <dia:attribute name="value">
+                              <dia:enum val="0"/>
+                            </dia:attribute>
+              <dia:attribute name="kind">
+                              <dia:enum val="0"/>
+                            </dia:attribute>
+            </dia:composite>
+                      </dia:attribute>
+	          </dia:composite>
+                <dia:composite type="umloperation">
+          <dia:attribute name="name">
+            <dia:string>#Reset#</dia:string>
+          </dia:attribute>
+          <dia:attribute name="type">
+	              <dia:string>#inline void #</dia:string>
+	            </dia:attribute>
+          <dia:attribute name="visibility">
+            <dia:enum val="0"/>
+          </dia:attribute>
+          <dia:attribute name="abstract">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+          <dia:attribute name="class_scope">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+	  	  <dia:attribute name = "parameters"/>
+	          </dia:composite>
+                <dia:composite type="umloperation">
+          <dia:attribute name="name">
+            <dia:string>#Rotate#</dia:string>
+          </dia:attribute>
+          <dia:attribute name="type">
+	              <dia:string>#void #</dia:string>
+	            </dia:attribute>
+          <dia:attribute name="visibility">
+            <dia:enum val="0"/>
+          </dia:attribute>
+          <dia:attribute name="abstract">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+          <dia:attribute name="class_scope">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+	            <dia:attribute name="parameters">
+                        <dia:composite type="umlparameter">
+              <dia:attribute name="name">
+                <dia:string>#r#</dia:string>
+              </dia:attribute>
+              <dia:attribute name="type">
+                <dia:string>#int32#</dia:string>
+              </dia:attribute>
+              <dia:attribute name="value">
+                              <dia:enum val="0"/>
+                            </dia:attribute>
+              <dia:attribute name="kind">
+                              <dia:enum val="0"/>
+                            </dia:attribute>
+            </dia:composite>
+                      </dia:attribute>
+	          </dia:composite>
+                <dia:composite type="umloperation">
+          <dia:attribute name="name">
+            <dia:string>#UpdateSpray#</dia:string>
+          </dia:attribute>
+          <dia:attribute name="type">
+	              <dia:string>#void #</dia:string>
+	            </dia:attribute>
+          <dia:attribute name="visibility">
+            <dia:enum val="0"/>
+          </dia:attribute>
+          <dia:attribute name="abstract">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+          <dia:attribute name="class_scope">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+	  	  <dia:attribute name = "parameters"/>
+	          </dia:composite>
+                <dia:composite type="umloperation">
+          <dia:attribute name="name">
+            <dia:string>#Update#</dia:string>
+          </dia:attribute>
+          <dia:attribute name="type">
+	              <dia:string>#void #</dia:string>
+	            </dia:attribute>
+          <dia:attribute name="visibility">
+            <dia:enum val="0"/>
+          </dia:attribute>
+          <dia:attribute name="abstract">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+          <dia:attribute name="class_scope">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+	            <dia:attribute name="parameters">
+                        <dia:composite type="umlparameter">
+              <dia:attribute name="name">
+                <dia:string>#math#</dia:string>
+              </dia:attribute>
+              <dia:attribute name="type">
+                <dia:string>#Math*#</dia:string>
+              </dia:attribute>
+              <dia:attribute name="value">
+                              <dia:enum val="0"/>
+                            </dia:attribute>
+              <dia:attribute name="kind">
+                              <dia:enum val="0"/>
+                            </dia:attribute>
+            </dia:composite>
+                      </dia:attribute>
+	          </dia:composite>
+                <dia:composite type="umloperation">
+          <dia:attribute name="name">
+            <dia:string>#UpdateAI#</dia:string>
+          </dia:attribute>
+          <dia:attribute name="type">
+	              <dia:string>#void #</dia:string>
+	            </dia:attribute>
+          <dia:attribute name="visibility">
+            <dia:enum val="0"/>
+          </dia:attribute>
+          <dia:attribute name="abstract">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+          <dia:attribute name="class_scope">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+	            <dia:attribute name="parameters">
+                        <dia:composite type="umlparameter">
+              <dia:attribute name="name">
+                <dia:string>#math#</dia:string>
+              </dia:attribute>
+              <dia:attribute name="type">
+                <dia:string>#Math*#</dia:string>
+              </dia:attribute>
+              <dia:attribute name="value">
+                              <dia:enum val="0"/>
+                            </dia:attribute>
+              <dia:attribute name="kind">
+                              <dia:enum val="0"/>
+                            </dia:attribute>
+            </dia:composite>
+                        <dia:composite type="umlparameter">
+              <dia:attribute name="name">
+                <dia:string>#player#</dia:string>
+              </dia:attribute>
+              <dia:attribute name="type">
+                <dia:string>#Racer*#</dia:string>
+              </dia:attribute>
+              <dia:attribute name="value">
+                              <dia:enum val="0"/>
+                            </dia:attribute>
+              <dia:attribute name="kind">
+                              <dia:enum val="0"/>
+                            </dia:attribute>
+            </dia:composite>
+                      </dia:attribute>
+	          </dia:composite>
+                <dia:composite type="umloperation">
+          <dia:attribute name="name">
+            <dia:string>#Render#</dia:string>
+          </dia:attribute>
+          <dia:attribute name="type">
+	              <dia:string>#inline void #</dia:string>
+	            </dia:attribute>
+          <dia:attribute name="visibility">
+            <dia:enum val="0"/>
+          </dia:attribute>
+          <dia:attribute name="abstract">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+          <dia:attribute name="class_scope">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+	            <dia:attribute name="parameters">
+                        <dia:composite type="umlparameter">
+              <dia:attribute name="name">
+                <dia:string>#renderer#</dia:string>
+              </dia:attribute>
+              <dia:attribute name="type">
+                <dia:string>#Renderer*#</dia:string>
+              </dia:attribute>
+              <dia:attribute name="value">
+                              <dia:enum val="0"/>
+                            </dia:attribute>
+              <dia:attribute name="kind">
+                              <dia:enum val="0"/>
+                            </dia:attribute>
+            </dia:composite>
+                      </dia:attribute>
+	          </dia:composite>
+                <dia:composite type="umloperation">
+          <dia:attribute name="name">
+            <dia:string>#Position#</dia:string>
+          </dia:attribute>
+          <dia:attribute name="type">
+	              <dia:string>#inline Vector3&amp;#</dia:string>
+	            </dia:attribute>
+          <dia:attribute name="visibility">
+            <dia:enum val="0"/>
+          </dia:attribute>
+          <dia:attribute name="abstract">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+          <dia:attribute name="class_scope">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+	  	  <dia:attribute name = "parameters"/>
+	          </dia:composite>
+              </dia:attribute>
+            <dia:attribute name="template">
+        <dia:boolean val="false"/>
+      </dia:attribute>
+      <dia:attribute name="templates"/>
+    </dia:object>
+    <dia:object type="UML - Class" version="0" id="O13">
+      <dia:attribute name="obj_pos">
+        <dia:point val="69.300,-6.750"/>
+      </dia:attribute>
+      <dia:attribute name="obj_bb">
+        <dia:rectangle val="69.300,-6.750;71.300,-4.750"/>
+      </dia:attribute>
+      <dia:attribute name="elem_corner">
+        <dia:point val="69.300,-6.750"/>
+      </dia:attribute>
+      <dia:attribute name="elem_width">
+        <dia:real val="2.000"/>
+      </dia:attribute>
+      <dia:attribute name="elem_height">
+        <dia:real val="2.000"/>
+      </dia:attribute>
+      <dia:attribute name="name">
+        <dia:string>#Vector3#</dia:string>
+      </dia:attribute>
+      <dia:attribute name="stereotype">
+              <dia:string/>
+            </dia:attribute>
+      <dia:attribute name="abstract">
+        <dia:boolean val="false"/>
+      </dia:attribute>
+      <dia:attribute name="suppress_attributes">
+        <dia:boolean val="false"/>
+      </dia:attribute>
+      <dia:attribute name="suppress_operations">
+        <dia:boolean val="false"/>
+      </dia:attribute>
+      <dia:attribute name="visible_attributes">
+        <dia:boolean val="true"/>
+      </dia:attribute>
+      <dia:attribute name="visible_operations">
+        <dia:boolean val="true"/>
+      </dia:attribute>
+      <dia:attribute name="foreground_color">
+        <dia:color val="#000000"/>
+      </dia:attribute>
+      <dia:attribute name="background_color">
+        <dia:color val="#ffffff"/>
+      </dia:attribute>
+
+            <dia:attribute name = "attributes"/>
+                  <dia:attribute name="operations"/>
+            <dia:attribute name="template">
+        <dia:boolean val="false"/>
+      </dia:attribute>
+      <dia:attribute name="templates"/>
+    </dia:object>
+    <dia:object type="UML - Class" version="0" id="O6">
+      <dia:attribute name="obj_pos">
+        <dia:point val="-69.300,-6.750"/>
+      </dia:attribute>
+      <dia:attribute name="obj_bb">
+        <dia:rectangle val="-69.300,-6.750;-60.300,3.250"/>
+      </dia:attribute>
+      <dia:attribute name="elem_corner">
+        <dia:point val="-69.300,-6.750"/>
+      </dia:attribute>
+      <dia:attribute name="elem_width">
+        <dia:real val="9.000"/>
+      </dia:attribute>
+      <dia:attribute name="elem_height">
+        <dia:real val="10.000"/>
+      </dia:attribute>
+      <dia:attribute name="name">
+        <dia:string>#RaceCourse#</dia:string>
+      </dia:attribute>
+      <dia:attribute name="stereotype">
+              <dia:string/>
+            </dia:attribute>
+      <dia:attribute name="abstract">
+        <dia:boolean val="false"/>
+      </dia:attribute>
+      <dia:attribute name="suppress_attributes">
+        <dia:boolean val="false"/>
+      </dia:attribute>
+      <dia:attribute name="suppress_operations">
+        <dia:boolean val="false"/>
+      </dia:attribute>
+      <dia:attribute name="visible_attributes">
+        <dia:boolean val="true"/>
+      </dia:attribute>
+      <dia:attribute name="visible_operations">
+        <dia:boolean val="true"/>
+      </dia:attribute>
+      <dia:attribute name="foreground_color">
+        <dia:color val="#000000"/>
+      </dia:attribute>
+      <dia:attribute name="background_color">
+        <dia:color val="#ffffff"/>
+      </dia:attribute>
+
+            <dia:attribute name="attributes">
+                <dia:composite type="umlattribute">
+          <dia:attribute name="name">
+            <dia:string>#m_racers#</dia:string>
+          </dia:attribute>
+          <dia:attribute name="type">
+            <dia:string>#Racer*#</dia:string>
+          </dia:attribute>
+          <dia:attribute name="value">
+            <dia:string></dia:string>
+          </dia:attribute>
+          <dia:attribute name="visibility">
+            <dia:enum val="1"/>
+          </dia:attribute>
+          <dia:attribute name="abstract">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+          <dia:attribute name="class_scope">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+        </dia:composite>
+                <dia:composite type="umlattribute">
+          <dia:attribute name="name">
+            <dia:string>#m_numRacers#</dia:string>
+          </dia:attribute>
+          <dia:attribute name="type">
+            <dia:string>#int32 #</dia:string>
+          </dia:attribute>
+          <dia:attribute name="value">
+            <dia:string></dia:string>
+          </dia:attribute>
+          <dia:attribute name="visibility">
+            <dia:enum val="1"/>
+          </dia:attribute>
+          <dia:attribute name="abstract">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+          <dia:attribute name="class_scope">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+        </dia:composite>
+                <dia:composite type="umlattribute">
+          <dia:attribute name="name">
+            <dia:string>#m_checkPoints#</dia:string>
+          </dia:attribute>
+          <dia:attribute name="type">
+            <dia:string>#RenderInstance*#</dia:string>
+          </dia:attribute>
+          <dia:attribute name="value">
+            <dia:string></dia:string>
+          </dia:attribute>
+          <dia:attribute name="visibility">
+            <dia:enum val="1"/>
+          </dia:attribute>
+          <dia:attribute name="abstract">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+          <dia:attribute name="class_scope">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+        </dia:composite>
+                <dia:composite type="umlattribute">
+          <dia:attribute name="name">
+            <dia:string>#m_playerNextCP#</dia:string>
+          </dia:attribute>
+          <dia:attribute name="type">
+            <dia:string>#int32 #</dia:string>
+          </dia:attribute>
+          <dia:attribute name="value">
+            <dia:string></dia:string>
+          </dia:attribute>
+          <dia:attribute name="visibility">
+            <dia:enum val="1"/>
+          </dia:attribute>
+          <dia:attribute name="abstract">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+          <dia:attribute name="class_scope">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+        </dia:composite>
+              </dia:attribute>
+                  <dia:attribute name="operations">
+                <dia:composite type="umloperation">
+          <dia:attribute name="name">
+            <dia:string>#RaceCourse#</dia:string>
+          </dia:attribute>
+          <dia:attribute name="type">
+	  	     <dia:string/>
+	            </dia:attribute>
+          <dia:attribute name="visibility">
+            <dia:enum val="0"/>
+          </dia:attribute>
+          <dia:attribute name="abstract">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+          <dia:attribute name="class_scope">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+	  	  <dia:attribute name = "parameters"/>
+	          </dia:composite>
+                <dia:composite type="umloperation">
+          <dia:attribute name="name">
+            <dia:string>#~RaceCourse#</dia:string>
+          </dia:attribute>
+          <dia:attribute name="type">
+	  	     <dia:string/>
+	            </dia:attribute>
+          <dia:attribute name="visibility">
+            <dia:enum val="0"/>
+          </dia:attribute>
+          <dia:attribute name="abstract">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+          <dia:attribute name="class_scope">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+	  	  <dia:attribute name = "parameters"/>
+	          </dia:composite>
+                <dia:composite type="umloperation">
+          <dia:attribute name="name">
+            <dia:string>#Initialize#</dia:string>
+          </dia:attribute>
+          <dia:attribute name="type">
+	              <dia:string>#void #</dia:string>
+	            </dia:attribute>
+          <dia:attribute name="visibility">
+            <dia:enum val="0"/>
+          </dia:attribute>
+          <dia:attribute name="abstract">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+          <dia:attribute name="class_scope">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+	            <dia:attribute name="parameters">
+                        <dia:composite type="umlparameter">
+              <dia:attribute name="name">
+                <dia:string>#racers#</dia:string>
+              </dia:attribute>
+              <dia:attribute name="type">
+                <dia:string>#Racer*#</dia:string>
+              </dia:attribute>
+              <dia:attribute name="value">
+                              <dia:enum val="0"/>
+                            </dia:attribute>
+              <dia:attribute name="kind">
+                              <dia:enum val="0"/>
+                            </dia:attribute>
+            </dia:composite>
+                        <dia:composite type="umlparameter">
+              <dia:attribute name="name">
+                <dia:string>#numRacers#</dia:string>
+              </dia:attribute>
+              <dia:attribute name="type">
+                <dia:string>#int32#</dia:string>
+              </dia:attribute>
+              <dia:attribute name="value">
+                              <dia:enum val="0"/>
+                            </dia:attribute>
+              <dia:attribute name="kind">
+                              <dia:enum val="0"/>
+                            </dia:attribute>
+            </dia:composite>
+                      </dia:attribute>
+	          </dia:composite>
+                <dia:composite type="umloperation">
+          <dia:attribute name="name">
+            <dia:string>#Generate#</dia:string>
+          </dia:attribute>
+          <dia:attribute name="type">
+	              <dia:string>#void #</dia:string>
+	            </dia:attribute>
+          <dia:attribute name="visibility">
+            <dia:enum val="0"/>
+          </dia:attribute>
+          <dia:attribute name="abstract">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+          <dia:attribute name="class_scope">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+	            <dia:attribute name="parameters">
+                        <dia:composite type="umlparameter">
+              <dia:attribute name="name">
+                <dia:string>#center#</dia:string>
+              </dia:attribute>
+              <dia:attribute name="type">
+                <dia:string>#Vector3&amp;amp;#</dia:string>
+              </dia:attribute>
+              <dia:attribute name="value">
+                              <dia:enum val="0"/>
+                            </dia:attribute>
+              <dia:attribute name="kind">
+                              <dia:enum val="0"/>
+                            </dia:attribute>
+            </dia:composite>
+                        <dia:composite type="umlparameter">
+              <dia:attribute name="name">
+                <dia:string>#minRadius#</dia:string>
+              </dia:attribute>
+              <dia:attribute name="type">
+                <dia:string>#int32#</dia:string>
+              </dia:attribute>
+              <dia:attribute name="value">
+                              <dia:enum val="0"/>
+                            </dia:attribute>
+              <dia:attribute name="kind">
+                              <dia:enum val="0"/>
+                            </dia:attribute>
+            </dia:composite>
+                        <dia:composite type="umlparameter">
+              <dia:attribute name="name">
+                <dia:string>#maxRadius#</dia:string>
+              </dia:attribute>
+              <dia:attribute name="type">
+                <dia:string>#int32#</dia:string>
+              </dia:attribute>
+              <dia:attribute name="value">
+                              <dia:enum val="0"/>
+                            </dia:attribute>
+              <dia:attribute name="kind">
+                              <dia:enum val="0"/>
+                            </dia:attribute>
+            </dia:composite>
+                        <dia:composite type="umlparameter">
+              <dia:attribute name="name">
+                <dia:string>#info#</dia:string>
+              </dia:attribute>
+              <dia:attribute name="type">
+                <dia:string>#Info*#</dia:string>
+              </dia:attribute>
+              <dia:attribute name="value">
+                              <dia:enum val="0"/>
+                            </dia:attribute>
+              <dia:attribute name="kind">
+                              <dia:enum val="0"/>
+                            </dia:attribute>
+            </dia:composite>
+                      </dia:attribute>
+	          </dia:composite>
+                <dia:composite type="umloperation">
+          <dia:attribute name="name">
+            <dia:string>#Render#</dia:string>
+          </dia:attribute>
+          <dia:attribute name="type">
+	              <dia:string>#void #</dia:string>
+	            </dia:attribute>
+          <dia:attribute name="visibility">
+            <dia:enum val="0"/>
+          </dia:attribute>
+          <dia:attribute name="abstract">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+          <dia:attribute name="class_scope">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+	            <dia:attribute name="parameters">
+                        <dia:composite type="umlparameter">
+              <dia:attribute name="name">
+                <dia:string>#renderer#</dia:string>
+              </dia:attribute>
+              <dia:attribute name="type">
+                <dia:string>#Renderer*#</dia:string>
+              </dia:attribute>
+              <dia:attribute name="value">
+                              <dia:enum val="0"/>
+                            </dia:attribute>
+              <dia:attribute name="kind">
+                              <dia:enum val="0"/>
+                            </dia:attribute>
+            </dia:composite>
+                      </dia:attribute>
+	          </dia:composite>
+                <dia:composite type="umloperation">
+          <dia:attribute name="name">
+            <dia:string>#Update#</dia:string>
+          </dia:attribute>
+          <dia:attribute name="type">
+	              <dia:string>#int #</dia:string>
+	            </dia:attribute>
+          <dia:attribute name="visibility">
+            <dia:enum val="0"/>
+          </dia:attribute>
+          <dia:attribute name="abstract">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+          <dia:attribute name="class_scope">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+	  	  <dia:attribute name = "parameters"/>
+	          </dia:composite>
+              </dia:attribute>
+            <dia:attribute name="template">
+        <dia:boolean val="false"/>
+      </dia:attribute>
+      <dia:attribute name="templates"/>
+    </dia:object>
+    <dia:object type="UML - Class" version="0" id="O9">
+      <dia:attribute name="obj_pos">
+        <dia:point val="-18.900,-6.750"/>
+      </dia:attribute>
+      <dia:attribute name="obj_bb">
+        <dia:rectangle val="-18.900,-6.750;-9.900,8.850"/>
+      </dia:attribute>
+      <dia:attribute name="elem_corner">
+        <dia:point val="-18.900,-6.750"/>
+      </dia:attribute>
+      <dia:attribute name="elem_width">
+        <dia:real val="9.000"/>
+      </dia:attribute>
+      <dia:attribute name="elem_height">
+        <dia:real val="15.600"/>
+      </dia:attribute>
+      <dia:attribute name="name">
+        <dia:string>#Renderer#</dia:string>
+      </dia:attribute>
+      <dia:attribute name="stereotype">
+              <dia:string/>
+            </dia:attribute>
+      <dia:attribute name="abstract">
+        <dia:boolean val="false"/>
+      </dia:attribute>
+      <dia:attribute name="suppress_attributes">
+        <dia:boolean val="false"/>
+      </dia:attribute>
+      <dia:attribute name="suppress_operations">
+        <dia:boolean val="false"/>
+      </dia:attribute>
+      <dia:attribute name="visible_attributes">
+        <dia:boolean val="true"/>
+      </dia:attribute>
+      <dia:attribute name="visible_operations">
+        <dia:boolean val="true"/>
+      </dia:attribute>
+      <dia:attribute name="foreground_color">
+        <dia:color val="#000000"/>
+      </dia:attribute>
+      <dia:attribute name="background_color">
+        <dia:color val="#ffffff"/>
+      </dia:attribute>
+
+            <dia:attribute name="attributes">
+                <dia:composite type="umlattribute">
+          <dia:attribute name="name">
+            <dia:string>#m_display#</dia:string>
+          </dia:attribute>
+          <dia:attribute name="type">
+            <dia:string>#EGLDisplay	#</dia:string>
+          </dia:attribute>
+          <dia:attribute name="value">
+            <dia:string></dia:string>
+          </dia:attribute>
+          <dia:attribute name="visibility">
+            <dia:enum val="1"/>
+          </dia:attribute>
+          <dia:attribute name="abstract">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+          <dia:attribute name="class_scope">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+        </dia:composite>
+                <dia:composite type="umlattribute">
+          <dia:attribute name="name">
+            <dia:string>#m_config#</dia:string>
+          </dia:attribute>
+          <dia:attribute name="type">
+            <dia:string>#EGLConfig	#</dia:string>
+          </dia:attribute>
+          <dia:attribute name="value">
+            <dia:string></dia:string>
+          </dia:attribute>
+          <dia:attribute name="visibility">
+            <dia:enum val="1"/>
+          </dia:attribute>
+          <dia:attribute name="abstract">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+          <dia:attribute name="class_scope">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+        </dia:composite>
+                <dia:composite type="umlattribute">
+          <dia:attribute name="name">
+            <dia:string>#m_surface#</dia:string>
+          </dia:attribute>
+          <dia:attribute name="type">
+            <dia:string>#EGLSurface	#</dia:string>
+          </dia:attribute>
+          <dia:attribute name="value">
+            <dia:string></dia:string>
+          </dia:attribute>
+          <dia:attribute name="visibility">
+            <dia:enum val="1"/>
+          </dia:attribute>
+          <dia:attribute name="abstract">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+          <dia:attribute name="class_scope">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+        </dia:composite>
+                <dia:composite type="umlattribute">
+          <dia:attribute name="name">
+            <dia:string>#m_context#</dia:string>
+          </dia:attribute>
+          <dia:attribute name="type">
+            <dia:string>#EGLContext	#</dia:string>
+          </dia:attribute>
+          <dia:attribute name="value">
+            <dia:string></dia:string>
+          </dia:attribute>
+          <dia:attribute name="visibility">
+            <dia:enum val="1"/>
+          </dia:attribute>
+          <dia:attribute name="abstract">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+          <dia:attribute name="class_scope">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+        </dia:composite>
+                <dia:composite type="umlattribute">
+          <dia:attribute name="name">
+            <dia:string>#m_currData#</dia:string>
+          </dia:attribute>
+          <dia:attribute name="type">
+            <dia:string>#RenderData*#</dia:string>
+          </dia:attribute>
+          <dia:attribute name="value">
+            <dia:string></dia:string>
+          </dia:attribute>
+          <dia:attribute name="visibility">
+            <dia:enum val="1"/>
+          </dia:attribute>
+          <dia:attribute name="abstract">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+          <dia:attribute name="class_scope">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+        </dia:composite>
+                <dia:composite type="umlattribute">
+          <dia:attribute name="name">
+            <dia:string>#m_currTexture#</dia:string>
+          </dia:attribute>
+          <dia:attribute name="type">
+            <dia:string>#int16 #</dia:string>
+          </dia:attribute>
+          <dia:attribute name="value">
+            <dia:string></dia:string>
+          </dia:attribute>
+          <dia:attribute name="visibility">
+            <dia:enum val="1"/>
+          </dia:attribute>
+          <dia:attribute name="abstract">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+          <dia:attribute name="class_scope">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+        </dia:composite>
+                <dia:composite type="umlattribute">
+          <dia:attribute name="name">
+            <dia:string>#m_fogEnabled#</dia:string>
+          </dia:attribute>
+          <dia:attribute name="type">
+            <dia:string>#bool #</dia:string>
+          </dia:attribute>
+          <dia:attribute name="value">
+            <dia:string></dia:string>
+          </dia:attribute>
+          <dia:attribute name="visibility">
+            <dia:enum val="1"/>
+          </dia:attribute>
+          <dia:attribute name="abstract">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+          <dia:attribute name="class_scope">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+        </dia:composite>
+              </dia:attribute>
+                  <dia:attribute name="operations">
+                <dia:composite type="umloperation">
+          <dia:attribute name="name">
+            <dia:string>#Renderer#</dia:string>
+          </dia:attribute>
+          <dia:attribute name="type">
+	  	     <dia:string/>
+	            </dia:attribute>
+          <dia:attribute name="visibility">
+            <dia:enum val="0"/>
+          </dia:attribute>
+          <dia:attribute name="abstract">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+          <dia:attribute name="class_scope">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+	  	  <dia:attribute name = "parameters"/>
+	          </dia:composite>
+                <dia:composite type="umloperation">
+          <dia:attribute name="name">
+            <dia:string>#~Renderer#</dia:string>
+          </dia:attribute>
+          <dia:attribute name="type">
+	  	     <dia:string/>
+	            </dia:attribute>
+          <dia:attribute name="visibility">
+            <dia:enum val="0"/>
+          </dia:attribute>
+          <dia:attribute name="abstract">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+          <dia:attribute name="class_scope">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+	  	  <dia:attribute name = "parameters"/>
+	          </dia:composite>
+                <dia:composite type="umloperation">
+          <dia:attribute name="name">
+            <dia:string>#Create#</dia:string>
+          </dia:attribute>
+          <dia:attribute name="type">
+	              <dia:string>#bool #</dia:string>
+	            </dia:attribute>
+          <dia:attribute name="visibility">
+            <dia:enum val="0"/>
+          </dia:attribute>
+          <dia:attribute name="abstract">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+          <dia:attribute name="class_scope">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+	            <dia:attribute name="parameters">
+                        <dia:composite type="umlparameter">
+              <dia:attribute name="name">
+                <dia:string>#hWnd#</dia:string>
+              </dia:attribute>
+              <dia:attribute name="type">
+                <dia:string>#HWND*#</dia:string>
+              </dia:attribute>
+              <dia:attribute name="value">
+                              <dia:enum val="0"/>
+                            </dia:attribute>
+              <dia:attribute name="kind">
+                              <dia:enum val="0"/>
+                            </dia:attribute>
+            </dia:composite>
+                      </dia:attribute>
+	          </dia:composite>
+                <dia:composite type="umloperation">
+          <dia:attribute name="name">
+            <dia:string>#Destroy#</dia:string>
+          </dia:attribute>
+          <dia:attribute name="type">
+	              <dia:string>#void #</dia:string>
+	            </dia:attribute>
+          <dia:attribute name="visibility">
+            <dia:enum val="0"/>
+          </dia:attribute>
+          <dia:attribute name="abstract">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+          <dia:attribute name="class_scope">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+	  	  <dia:attribute name = "parameters"/>
+	          </dia:composite>
+                <dia:composite type="umloperation">
+          <dia:attribute name="name">
+            <dia:string>#Initialize#</dia:string>
+          </dia:attribute>
+          <dia:attribute name="type">
+	              <dia:string>#void #</dia:string>
+	            </dia:attribute>
+          <dia:attribute name="visibility">
+            <dia:enum val="0"/>
+          </dia:attribute>
+          <dia:attribute name="abstract">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+          <dia:attribute name="class_scope">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+	            <dia:attribute name="parameters">
+                        <dia:composite type="umlparameter">
+              <dia:attribute name="name">
+                <dia:string>#width#</dia:string>
+              </dia:attribute>
+              <dia:attribute name="type">
+                <dia:string>#uint16#</dia:string>
+              </dia:attribute>
+              <dia:attribute name="value">
+                              <dia:enum val="0"/>
+                            </dia:attribute>
+              <dia:attribute name="kind">
+                              <dia:enum val="0"/>
+                            </dia:attribute>
+            </dia:composite>
+                        <dia:composite type="umlparameter">
+              <dia:attribute name="name">
+                <dia:string>#height#</dia:string>
+              </dia:attribute>
+              <dia:attribute name="type">
+                <dia:string>#uint16#</dia:string>
+              </dia:attribute>
+              <dia:attribute name="value">
+                              <dia:enum val="0"/>
+                            </dia:attribute>
+              <dia:attribute name="kind">
+                              <dia:enum val="0"/>
+                            </dia:attribute>
+            </dia:composite>
+                      </dia:attribute>
+	          </dia:composite>
+                <dia:composite type="umloperation">
+          <dia:attribute name="name">
+            <dia:string>#Render#</dia:string>
+          </dia:attribute>
+          <dia:attribute name="type">
+	              <dia:string>#void #</dia:string>
+	            </dia:attribute>
+          <dia:attribute name="visibility">
+            <dia:enum val="0"/>
+          </dia:attribute>
+          <dia:attribute name="abstract">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+          <dia:attribute name="class_scope">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+	            <dia:attribute name="parameters">
+                        <dia:composite type="umlparameter">
+              <dia:attribute name="name">
+                <dia:string>#data#</dia:string>
+              </dia:attribute>
+              <dia:attribute name="type">
+                <dia:string>#RenderInstance*#</dia:string>
+              </dia:attribute>
+              <dia:attribute name="value">
+                              <dia:enum val="0"/>
+                            </dia:attribute>
+              <dia:attribute name="kind">
+                              <dia:enum val="0"/>
+                            </dia:attribute>
+            </dia:composite>
+                      </dia:attribute>
+	          </dia:composite>
+                <dia:composite type="umloperation">
+          <dia:attribute name="name">
+            <dia:string>#SwapBuffers#</dia:string>
+          </dia:attribute>
+          <dia:attribute name="type">
+	              <dia:string>#void #</dia:string>
+	            </dia:attribute>
+          <dia:attribute name="visibility">
+            <dia:enum val="0"/>
+          </dia:attribute>
+          <dia:attribute name="abstract">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+          <dia:attribute name="class_scope">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+	  	  <dia:attribute name = "parameters"/>
+	          </dia:composite>
+                <dia:composite type="umloperation">
+          <dia:attribute name="name">
+            <dia:string>#Draw2DQuad#</dia:string>
+          </dia:attribute>
+          <dia:attribute name="type">
+	              <dia:string>#void #</dia:string>
+	            </dia:attribute>
+          <dia:attribute name="visibility">
+            <dia:enum val="0"/>
+          </dia:attribute>
+          <dia:attribute name="abstract">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+          <dia:attribute name="class_scope">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+	            <dia:attribute name="parameters">
+                        <dia:composite type="umlparameter">
+              <dia:attribute name="name">
+                <dia:string>#tex#</dia:string>
+              </dia:attribute>
+              <dia:attribute name="type">
+                <dia:string>#Texture*#</dia:string>
+              </dia:attribute>
+              <dia:attribute name="value">
+                              <dia:enum val="0"/>
+                            </dia:attribute>
+              <dia:attribute name="kind">
+                              <dia:enum val="0"/>
+                            </dia:attribute>
+            </dia:composite>
+                      </dia:attribute>
+	          </dia:composite>
+                <dia:composite type="umloperation">
+          <dia:attribute name="name">
+            <dia:string>#EnableFog#</dia:string>
+          </dia:attribute>
+          <dia:attribute name="type">
+	              <dia:string>#void #</dia:string>
+	            </dia:attribute>
+          <dia:attribute name="visibility">
+            <dia:enum val="0"/>
+          </dia:attribute>
+          <dia:attribute name="abstract">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+          <dia:attribute name="class_scope">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+	  	  <dia:attribute name = "parameters"/>
+	          </dia:composite>
+                <dia:composite type="umloperation">
+          <dia:attribute name="name">
+            <dia:string>#DisableFog#</dia:string>
+          </dia:attribute>
+          <dia:attribute name="type">
+	              <dia:string>#void #</dia:string>
+	            </dia:attribute>
+          <dia:attribute name="visibility">
+            <dia:enum val="0"/>
+          </dia:attribute>
+          <dia:attribute name="abstract">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+          <dia:attribute name="class_scope">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+	  	  <dia:attribute name = "parameters"/>
+	          </dia:composite>
+              </dia:attribute>
+            <dia:attribute name="template">
+        <dia:boolean val="false"/>
+      </dia:attribute>
+      <dia:attribute name="templates"/>
+    </dia:object>
+    <dia:object type="UML - Class" version="0" id="O10">
+      <dia:attribute name="obj_pos">
+        <dia:point val="81.900,-6.750"/>
+      </dia:attribute>
+      <dia:attribute name="obj_bb">
+        <dia:rectangle val="81.900,-6.750;90.900,8.850"/>
+      </dia:attribute>
+      <dia:attribute name="elem_corner">
+        <dia:point val="81.900,-6.750"/>
+      </dia:attribute>
+      <dia:attribute name="elem_width">
+        <dia:real val="9.000"/>
+      </dia:attribute>
+      <dia:attribute name="elem_height">
+        <dia:real val="15.600"/>
+      </dia:attribute>
+      <dia:attribute name="name">
+        <dia:string>#RenderInstance#</dia:string>
+      </dia:attribute>
+      <dia:attribute name="stereotype">
+              <dia:string/>
+            </dia:attribute>
+      <dia:attribute name="abstract">
+        <dia:boolean val="false"/>
+      </dia:attribute>
+      <dia:attribute name="suppress_attributes">
+        <dia:boolean val="false"/>
+      </dia:attribute>
+      <dia:attribute name="suppress_operations">
+        <dia:boolean val="false"/>
+      </dia:attribute>
+      <dia:attribute name="visible_attributes">
+        <dia:boolean val="true"/>
+      </dia:attribute>
+      <dia:attribute name="visible_operations">
+        <dia:boolean val="true"/>
+      </dia:attribute>
+      <dia:attribute name="foreground_color">
+        <dia:color val="#000000"/>
+      </dia:attribute>
+      <dia:attribute name="background_color">
+        <dia:color val="#ffffff"/>
+      </dia:attribute>
+
+            <dia:attribute name="attributes">
+                <dia:composite type="umlattribute">
+          <dia:attribute name="name">
+            <dia:string>#m_rdata#</dia:string>
+          </dia:attribute>
+          <dia:attribute name="type">
+            <dia:string>#RenderData*#</dia:string>
+          </dia:attribute>
+          <dia:attribute name="value">
+            <dia:string></dia:string>
+          </dia:attribute>
+          <dia:attribute name="visibility">
+            <dia:enum val="1"/>
+          </dia:attribute>
+          <dia:attribute name="abstract">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+          <dia:attribute name="class_scope">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+        </dia:composite>
+                <dia:composite type="umlattribute">
+          <dia:attribute name="name">
+            <dia:string>#e#</dia:string>
+          </dia:attribute>
+          <dia:attribute name="type">
+            <dia:string>#m_scal#</dia:string>
+          </dia:attribute>
+          <dia:attribute name="value">
+            <dia:string></dia:string>
+          </dia:attribute>
+          <dia:attribute name="visibility">
+            <dia:enum val="1"/>
+          </dia:attribute>
+          <dia:attribute name="abstract">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+          <dia:attribute name="class_scope">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+        </dia:composite>
+              </dia:attribute>
+                  <dia:attribute name="operations">
+                <dia:composite type="umloperation">
+          <dia:attribute name="name">
+            <dia:string>#RenderInstance#</dia:string>
+          </dia:attribute>
+          <dia:attribute name="type">
+	  	     <dia:string/>
+	            </dia:attribute>
+          <dia:attribute name="visibility">
+            <dia:enum val="0"/>
+          </dia:attribute>
+          <dia:attribute name="abstract">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+          <dia:attribute name="class_scope">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+	  	  <dia:attribute name = "parameters"/>
+	          </dia:composite>
+                <dia:composite type="umloperation">
+          <dia:attribute name="name">
+            <dia:string>#~RenderInstance#</dia:string>
+          </dia:attribute>
+          <dia:attribute name="type">
+	  	     <dia:string/>
+	            </dia:attribute>
+          <dia:attribute name="visibility">
+            <dia:enum val="0"/>
+          </dia:attribute>
+          <dia:attribute name="abstract">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+          <dia:attribute name="class_scope">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+	  	  <dia:attribute name = "parameters"/>
+	          </dia:composite>
+                <dia:composite type="umloperation">
+          <dia:attribute name="name">
+            <dia:string>#renderData#</dia:string>
+          </dia:attribute>
+          <dia:attribute name="type">
+	              <dia:string>#inline void #</dia:string>
+	            </dia:attribute>
+          <dia:attribute name="visibility">
+            <dia:enum val="0"/>
+          </dia:attribute>
+          <dia:attribute name="abstract">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+          <dia:attribute name="class_scope">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+	            <dia:attribute name="parameters">
+                        <dia:composite type="umlparameter">
+              <dia:attribute name="name">
+                <dia:string>#rd#</dia:string>
+              </dia:attribute>
+              <dia:attribute name="type">
+                <dia:string>#RenderData*#</dia:string>
+              </dia:attribute>
+              <dia:attribute name="value">
+                              <dia:enum val="0"/>
+                            </dia:attribute>
+              <dia:attribute name="kind">
+                              <dia:enum val="0"/>
+                            </dia:attribute>
+            </dia:composite>
+                      </dia:attribute>
+	          </dia:composite>
+                <dia:composite type="umloperation">
+          <dia:attribute name="name">
+            <dia:string>#renderData#</dia:string>
+          </dia:attribute>
+          <dia:attribute name="type">
+	              <dia:string>#inline RenderData*#</dia:string>
+	            </dia:attribute>
+          <dia:attribute name="visibility">
+            <dia:enum val="0"/>
+          </dia:attribute>
+          <dia:attribute name="abstract">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+          <dia:attribute name="class_scope">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+	  	  <dia:attribute name = "parameters"/>
+	          </dia:composite>
+                <dia:composite type="umloperation">
+          <dia:attribute name="name">
+            <dia:string>#position#</dia:string>
+          </dia:attribute>
+          <dia:attribute name="type">
+	              <dia:string>#inline void #</dia:string>
+	            </dia:attribute>
+          <dia:attribute name="visibility">
+            <dia:enum val="0"/>
+          </dia:attribute>
+          <dia:attribute name="abstract">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+          <dia:attribute name="class_scope">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+	            <dia:attribute name="parameters">
+                        <dia:composite type="umlparameter">
+              <dia:attribute name="name">
+                <dia:string>#p#</dia:string>
+              </dia:attribute>
+              <dia:attribute name="type">
+                <dia:string>#Vector3&amp;amp;#</dia:string>
+              </dia:attribute>
+              <dia:attribute name="value">
+                              <dia:enum val="0"/>
+                            </dia:attribute>
+              <dia:attribute name="kind">
+                              <dia:enum val="0"/>
+                            </dia:attribute>
+            </dia:composite>
+                      </dia:attribute>
+	          </dia:composite>
+                <dia:composite type="umloperation">
+          <dia:attribute name="name">
+            <dia:string>#position#</dia:string>
+          </dia:attribute>
+          <dia:attribute name="type">
+	              <dia:string>#inline void #</dia:string>
+	            </dia:attribute>
+          <dia:attribute name="visibility">
+            <dia:enum val="0"/>
+          </dia:attribute>
+          <dia:attribute name="abstract">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+          <dia:attribute name="class_scope">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+	            <dia:attribute name="parameters">
+                        <dia:composite type="umlparameter">
+              <dia:attribute name="name">
+                <dia:string>#x#</dia:string>
+              </dia:attribute>
+              <dia:attribute name="type">
+                <dia:string>#int32#</dia:string>
+              </dia:attribute>
+              <dia:attribute name="value">
+                              <dia:enum val="0"/>
+                            </dia:attribute>
+              <dia:attribute name="kind">
+                              <dia:enum val="0"/>
+                            </dia:attribute>
+            </dia:composite>
+                        <dia:composite type="umlparameter">
+              <dia:attribute name="name">
+                <dia:string>#y#</dia:string>
+              </dia:attribute>
+              <dia:attribute name="type">
+                <dia:string>#int32#</dia:string>
+              </dia:attribute>
+              <dia:attribute name="value">
+                              <dia:enum val="0"/>
+                            </dia:attribute>
+              <dia:attribute name="kind">
+                              <dia:enum val="0"/>
+                            </dia:attribute>
+            </dia:composite>
+                        <dia:composite type="umlparameter">
+              <dia:attribute name="name">
+                <dia:string>#z#</dia:string>
+              </dia:attribute>
+              <dia:attribute name="type">
+                <dia:string>#int32#</dia:string>
+              </dia:attribute>
+              <dia:attribute name="value">
+                              <dia:enum val="0"/>
+                            </dia:attribute>
+              <dia:attribute name="kind">
+                              <dia:enum val="0"/>
+                            </dia:attribute>
+            </dia:composite>
+                      </dia:attribute>
+	          </dia:composite>
+                <dia:composite type="umloperation">
+          <dia:attribute name="name">
+            <dia:string>#position#</dia:string>
+          </dia:attribute>
+          <dia:attribute name="type">
+	              <dia:string>#inline Vector3&amp;#</dia:string>
+	            </dia:attribute>
+          <dia:attribute name="visibility">
+            <dia:enum val="0"/>
+          </dia:attribute>
+          <dia:attribute name="abstract">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+          <dia:attribute name="class_scope">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+	  	  <dia:attribute name = "parameters"/>
+	          </dia:composite>
+                <dia:composite type="umloperation">
+          <dia:attribute name="name">
+            <dia:string>#rotation#</dia:string>
+          </dia:attribute>
+          <dia:attribute name="type">
+	              <dia:string>#inline void #</dia:string>
+	            </dia:attribute>
+          <dia:attribute name="visibility">
+            <dia:enum val="0"/>
+          </dia:attribute>
+          <dia:attribute name="abstract">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+          <dia:attribute name="class_scope">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+	            <dia:attribute name="parameters">
+                        <dia:composite type="umlparameter">
+              <dia:attribute name="name">
+                <dia:string>#p#</dia:string>
+              </dia:attribute>
+              <dia:attribute name="type">
+                <dia:string>#Vector3&amp;amp;#</dia:string>
+              </dia:attribute>
+              <dia:attribute name="value">
+                              <dia:enum val="0"/>
+                            </dia:attribute>
+              <dia:attribute name="kind">
+                              <dia:enum val="0"/>
+                            </dia:attribute>
+            </dia:composite>
+                      </dia:attribute>
+	          </dia:composite>
+                <dia:composite type="umloperation">
+          <dia:attribute name="name">
+            <dia:string>#rotation#</dia:string>
+          </dia:attribute>
+          <dia:attribute name="type">
+	              <dia:string>#inline Vector3&amp;#</dia:string>
+	            </dia:attribute>
+          <dia:attribute name="visibility">
+            <dia:enum val="0"/>
+          </dia:attribute>
+          <dia:attribute name="abstract">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+          <dia:attribute name="class_scope">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+	  	  <dia:attribute name = "parameters"/>
+	          </dia:composite>
+                <dia:composite type="umloperation">
+          <dia:attribute name="name">
+            <dia:string>#Rotate#</dia:string>
+          </dia:attribute>
+          <dia:attribute name="type">
+	              <dia:string>#inline void #</dia:string>
+	            </dia:attribute>
+          <dia:attribute name="visibility">
+            <dia:enum val="0"/>
+          </dia:attribute>
+          <dia:attribute name="abstract">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+          <dia:attribute name="class_scope">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+	            <dia:attribute name="parameters">
+                        <dia:composite type="umlparameter">
+              <dia:attribute name="name">
+                <dia:string>#p#</dia:string>
+              </dia:attribute>
+              <dia:attribute name="type">
+                <dia:string>#Vector3&amp;amp;#</dia:string>
+              </dia:attribute>
+              <dia:attribute name="value">
+                              <dia:enum val="0"/>
+                            </dia:attribute>
+              <dia:attribute name="kind">
+                              <dia:enum val="0"/>
+                            </dia:attribute>
+            </dia:composite>
+                      </dia:attribute>
+	          </dia:composite>
+                <dia:composite type="umloperation">
+          <dia:attribute name="name">
+            <dia:string>#scale#</dia:string>
+          </dia:attribute>
+          <dia:attribute name="type">
+	              <dia:string>#inline void #</dia:string>
+	            </dia:attribute>
+          <dia:attribute name="visibility">
+            <dia:enum val="0"/>
+          </dia:attribute>
+          <dia:attribute name="abstract">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+          <dia:attribute name="class_scope">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+	            <dia:attribute name="parameters">
+                        <dia:composite type="umlparameter">
+              <dia:attribute name="name">
+                <dia:string>#s#</dia:string>
+              </dia:attribute>
+              <dia:attribute name="type">
+                <dia:string>#Vector3&amp;amp;#</dia:string>
+              </dia:attribute>
+              <dia:attribute name="value">
+                              <dia:enum val="0"/>
+                            </dia:attribute>
+              <dia:attribute name="kind">
+                              <dia:enum val="0"/>
+                            </dia:attribute>
+            </dia:composite>
+                      </dia:attribute>
+	          </dia:composite>
+                <dia:composite type="umloperation">
+          <dia:attribute name="name">
+            <dia:string>#scale#</dia:string>
+          </dia:attribute>
+          <dia:attribute name="type">
+	              <dia:string>#inline void #</dia:string>
+	            </dia:attribute>
+          <dia:attribute name="visibility">
+            <dia:enum val="0"/>
+          </dia:attribute>
+          <dia:attribute name="abstract">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+          <dia:attribute name="class_scope">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+	            <dia:attribute name="parameters">
+                        <dia:composite type="umlparameter">
+              <dia:attribute name="name">
+                <dia:string>#x#</dia:string>
+              </dia:attribute>
+              <dia:attribute name="type">
+                <dia:string>#int32#</dia:string>
+              </dia:attribute>
+              <dia:attribute name="value">
+                              <dia:enum val="0"/>
+                            </dia:attribute>
+              <dia:attribute name="kind">
+                              <dia:enum val="0"/>
+                            </dia:attribute>
+            </dia:composite>
+                        <dia:composite type="umlparameter">
+              <dia:attribute name="name">
+                <dia:string>#y#</dia:string>
+              </dia:attribute>
+              <dia:attribute name="type">
+                <dia:string>#int32#</dia:string>
+              </dia:attribute>
+              <dia:attribute name="value">
+                              <dia:enum val="0"/>
+                            </dia:attribute>
+              <dia:attribute name="kind">
+                              <dia:enum val="0"/>
+                            </dia:attribute>
+            </dia:composite>
+                        <dia:composite type="umlparameter">
+              <dia:attribute name="name">
+                <dia:string>#z#</dia:string>
+              </dia:attribute>
+              <dia:attribute name="type">
+                <dia:string>#int32#</dia:string>
+              </dia:attribute>
+              <dia:attribute name="value">
+                              <dia:enum val="0"/>
+                            </dia:attribute>
+              <dia:attribute name="kind">
+                              <dia:enum val="0"/>
+                            </dia:attribute>
+            </dia:composite>
+                      </dia:attribute>
+	          </dia:composite>
+                <dia:composite type="umloperation">
+          <dia:attribute name="name">
+            <dia:string>#scale#</dia:string>
+          </dia:attribute>
+          <dia:attribute name="type">
+	              <dia:string>#inline Vector3&amp;#</dia:string>
+	            </dia:attribute>
+          <dia:attribute name="visibility">
+            <dia:enum val="0"/>
+          </dia:attribute>
+          <dia:attribute name="abstract">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+          <dia:attribute name="class_scope">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+	  	  <dia:attribute name = "parameters"/>
+	          </dia:composite>
+                <dia:composite type="umloperation">
+          <dia:attribute name="name">
+            <dia:string>#Translate#</dia:string>
+          </dia:attribute>
+          <dia:attribute name="type">
+	              <dia:string>#inline void #</dia:string>
+	            </dia:attribute>
+          <dia:attribute name="visibility">
+            <dia:enum val="0"/>
+          </dia:attribute>
+          <dia:attribute name="abstract">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+          <dia:attribute name="class_scope">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+	            <dia:attribute name="parameters">
+                        <dia:composite type="umlparameter">
+              <dia:attribute name="name">
+                <dia:string>#trans#</dia:string>
+              </dia:attribute>
+              <dia:attribute name="type">
+                <dia:string>#Vector3&amp;amp;#</dia:string>
+              </dia:attribute>
+              <dia:attribute name="value">
+                              <dia:enum val="0"/>
+                            </dia:attribute>
+              <dia:attribute name="kind">
+                              <dia:enum val="0"/>
+                            </dia:attribute>
+            </dia:composite>
+                      </dia:attribute>
+	          </dia:composite>
+                <dia:composite type="umloperation">
+          <dia:attribute name="name">
+            <dia:string>#Translate#</dia:string>
+          </dia:attribute>
+          <dia:attribute name="type">
+	              <dia:string>#inline void #</dia:string>
+	            </dia:attribute>
+          <dia:attribute name="visibility">
+            <dia:enum val="0"/>
+          </dia:attribute>
+          <dia:attribute name="abstract">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+          <dia:attribute name="class_scope">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+	            <dia:attribute name="parameters">
+                        <dia:composite type="umlparameter">
+              <dia:attribute name="name">
+                <dia:string>#x#</dia:string>
+              </dia:attribute>
+              <dia:attribute name="type">
+                <dia:string>#int32#</dia:string>
+              </dia:attribute>
+              <dia:attribute name="value">
+                              <dia:enum val="0"/>
+                            </dia:attribute>
+              <dia:attribute name="kind">
+                              <dia:enum val="0"/>
+                            </dia:attribute>
+            </dia:composite>
+                        <dia:composite type="umlparameter">
+              <dia:attribute name="name">
+                <dia:string>#y#</dia:string>
+              </dia:attribute>
+              <dia:attribute name="type">
+                <dia:string>#int32#</dia:string>
+              </dia:attribute>
+              <dia:attribute name="value">
+                              <dia:enum val="0"/>
+                            </dia:attribute>
+              <dia:attribute name="kind">
+                              <dia:enum val="0"/>
+                            </dia:attribute>
+            </dia:composite>
+                        <dia:composite type="umlparameter">
+              <dia:attribute name="name">
+                <dia:string>#z#</dia:string>
+              </dia:attribute>
+              <dia:attribute name="type">
+                <dia:string>#int32#</dia:string>
+              </dia:attribute>
+              <dia:attribute name="value">
+                              <dia:enum val="0"/>
+                            </dia:attribute>
+              <dia:attribute name="kind">
+                              <dia:enum val="0"/>
+                            </dia:attribute>
+            </dia:composite>
+                      </dia:attribute>
+	          </dia:composite>
+              </dia:attribute>
+            <dia:attribute name="template">
+        <dia:boolean val="false"/>
+      </dia:attribute>
+      <dia:attribute name="templates"/>
+    </dia:object>
+    <dia:object type="UML - Class" version="0" id="O11">
+      <dia:attribute name="obj_pos">
+        <dia:point val="-56.700,-6.750"/>
+      </dia:attribute>
+      <dia:attribute name="obj_bb">
+        <dia:rectangle val="-56.700,-6.750;-47.700,4.050"/>
+      </dia:attribute>
+      <dia:attribute name="elem_corner">
+        <dia:point val="-56.700,-6.750"/>
+      </dia:attribute>
+      <dia:attribute name="elem_width">
+        <dia:real val="9.000"/>
+      </dia:attribute>
+      <dia:attribute name="elem_height">
+        <dia:real val="10.800"/>
+      </dia:attribute>
+      <dia:attribute name="name">
+        <dia:string>#Seascape#</dia:string>
+      </dia:attribute>
+      <dia:attribute name="stereotype">
+              <dia:string/>
+            </dia:attribute>
+      <dia:attribute name="abstract">
+        <dia:boolean val="false"/>
+      </dia:attribute>
+      <dia:attribute name="suppress_attributes">
+        <dia:boolean val="false"/>
+      </dia:attribute>
+      <dia:attribute name="suppress_operations">
+        <dia:boolean val="false"/>
+      </dia:attribute>
+      <dia:attribute name="visible_attributes">
+        <dia:boolean val="true"/>
+      </dia:attribute>
+      <dia:attribute name="visible_operations">
+        <dia:boolean val="true"/>
+      </dia:attribute>
+      <dia:attribute name="foreground_color">
+        <dia:color val="#000000"/>
+      </dia:attribute>
+      <dia:attribute name="background_color">
+        <dia:color val="#ffffff"/>
+      </dia:attribute>
+
+            <dia:attribute name="attributes">
+                <dia:composite type="umlattribute">
+          <dia:attribute name="name">
+            <dia:string>#m_models#</dia:string>
+          </dia:attribute>
+          <dia:attribute name="type">
+            <dia:string>#RenderInstance*#</dia:string>
+          </dia:attribute>
+          <dia:attribute name="value">
+            <dia:string></dia:string>
+          </dia:attribute>
+          <dia:attribute name="visibility">
+            <dia:enum val="1"/>
+          </dia:attribute>
+          <dia:attribute name="abstract">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+          <dia:attribute name="class_scope">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+        </dia:composite>
+                <dia:composite type="umlattribute">
+          <dia:attribute name="name">
+            <dia:string>#m_numModels#</dia:string>
+          </dia:attribute>
+          <dia:attribute name="type">
+            <dia:string>#uint16 #</dia:string>
+          </dia:attribute>
+          <dia:attribute name="value">
+            <dia:string></dia:string>
+          </dia:attribute>
+          <dia:attribute name="visibility">
+            <dia:enum val="1"/>
+          </dia:attribute>
+          <dia:attribute name="abstract">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+          <dia:attribute name="class_scope">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+        </dia:composite>
+                <dia:composite type="umlattribute">
+          <dia:attribute name="name">
+            <dia:string>#m_sea#</dia:string>
+          </dia:attribute>
+          <dia:attribute name="type">
+            <dia:string>#RenderInstance*#</dia:string>
+          </dia:attribute>
+          <dia:attribute name="value">
+            <dia:string></dia:string>
+          </dia:attribute>
+          <dia:attribute name="visibility">
+            <dia:enum val="1"/>
+          </dia:attribute>
+          <dia:attribute name="abstract">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+          <dia:attribute name="class_scope">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+        </dia:composite>
+                <dia:composite type="umlattribute">
+          <dia:attribute name="name">
+            <dia:string>#m_texTranslate#</dia:string>
+          </dia:attribute>
+          <dia:attribute name="type">
+            <dia:string>#int32 #</dia:string>
+          </dia:attribute>
+          <dia:attribute name="value">
+            <dia:string></dia:string>
+          </dia:attribute>
+          <dia:attribute name="visibility">
+            <dia:enum val="1"/>
+          </dia:attribute>
+          <dia:attribute name="abstract">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+          <dia:attribute name="class_scope">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+        </dia:composite>
+                <dia:composite type="umlattribute">
+          <dia:attribute name="name">
+            <dia:string>#m_waterMoved#</dia:string>
+          </dia:attribute>
+          <dia:attribute name="type">
+            <dia:string>#bool #</dia:string>
+          </dia:attribute>
+          <dia:attribute name="value">
+            <dia:string></dia:string>
+          </dia:attribute>
+          <dia:attribute name="visibility">
+            <dia:enum val="1"/>
+          </dia:attribute>
+          <dia:attribute name="abstract">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+          <dia:attribute name="class_scope">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+        </dia:composite>
+              </dia:attribute>
+                  <dia:attribute name="operations">
+                <dia:composite type="umloperation">
+          <dia:attribute name="name">
+            <dia:string>#Seascape#</dia:string>
+          </dia:attribute>
+          <dia:attribute name="type">
+	  	     <dia:string/>
+	            </dia:attribute>
+          <dia:attribute name="visibility">
+            <dia:enum val="0"/>
+          </dia:attribute>
+          <dia:attribute name="abstract">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+          <dia:attribute name="class_scope">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+	  	  <dia:attribute name = "parameters"/>
+	          </dia:composite>
+                <dia:composite type="umloperation">
+          <dia:attribute name="name">
+            <dia:string>#~Seascape#</dia:string>
+          </dia:attribute>
+          <dia:attribute name="type">
+	  	     <dia:string/>
+	            </dia:attribute>
+          <dia:attribute name="visibility">
+            <dia:enum val="0"/>
+          </dia:attribute>
+          <dia:attribute name="abstract">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+          <dia:attribute name="class_scope">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+	  	  <dia:attribute name = "parameters"/>
+	          </dia:composite>
+                <dia:composite type="umloperation">
+          <dia:attribute name="name">
+            <dia:string>#Generate#</dia:string>
+          </dia:attribute>
+          <dia:attribute name="type">
+	              <dia:string>#void #</dia:string>
+	            </dia:attribute>
+          <dia:attribute name="visibility">
+            <dia:enum val="0"/>
+          </dia:attribute>
+          <dia:attribute name="abstract">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+          <dia:attribute name="class_scope">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+	            <dia:attribute name="parameters">
+                        <dia:composite type="umlparameter">
+              <dia:attribute name="name">
+                <dia:string>#mm#</dia:string>
+              </dia:attribute>
+              <dia:attribute name="type">
+                <dia:string>#ModelManager*#</dia:string>
+              </dia:attribute>
+              <dia:attribute name="value">
+                              <dia:enum val="0"/>
+                            </dia:attribute>
+              <dia:attribute name="kind">
+                              <dia:enum val="0"/>
+                            </dia:attribute>
+            </dia:composite>
+                      </dia:attribute>
+	          </dia:composite>
+                <dia:composite type="umloperation">
+          <dia:attribute name="name">
+            <dia:string>#Collided#</dia:string>
+          </dia:attribute>
+          <dia:attribute name="type">
+	              <dia:string>#bool #</dia:string>
+	            </dia:attribute>
+          <dia:attribute name="visibility">
+            <dia:enum val="0"/>
+          </dia:attribute>
+          <dia:attribute name="abstract">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+          <dia:attribute name="class_scope">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+	            <dia:attribute name="parameters">
+                        <dia:composite type="umlparameter">
+              <dia:attribute name="name">
+                <dia:string>#pos#</dia:string>
+              </dia:attribute>
+              <dia:attribute name="type">
+                <dia:string>#Vector3#</dia:string>
+              </dia:attribute>
+              <dia:attribute name="value">
+                              <dia:enum val="0"/>
+                            </dia:attribute>
+              <dia:attribute name="kind">
+                              <dia:enum val="0"/>
+                            </dia:attribute>
+            </dia:composite>
+                        <dia:composite type="umlparameter">
+              <dia:attribute name="name">
+                <dia:string>#radius#</dia:string>
+              </dia:attribute>
+              <dia:attribute name="type">
+                <dia:string>#int32#</dia:string>
+              </dia:attribute>
+              <dia:attribute name="value">
+                              <dia:enum val="0"/>
+                            </dia:attribute>
+              <dia:attribute name="kind">
+                              <dia:enum val="0"/>
+                            </dia:attribute>
+            </dia:composite>
+                      </dia:attribute>
+	          </dia:composite>
+                <dia:composite type="umloperation">
+          <dia:attribute name="name">
+            <dia:string>#Render#</dia:string>
+          </dia:attribute>
+          <dia:attribute name="type">
+	              <dia:string>#void #</dia:string>
+	            </dia:attribute>
+          <dia:attribute name="visibility">
+            <dia:enum val="0"/>
+          </dia:attribute>
+          <dia:attribute name="abstract">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+          <dia:attribute name="class_scope">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+	            <dia:attribute name="parameters">
+                        <dia:composite type="umlparameter">
+              <dia:attribute name="name">
+                <dia:string>#renderer#</dia:string>
+              </dia:attribute>
+              <dia:attribute name="type">
+                <dia:string>#Renderer*#</dia:string>
+              </dia:attribute>
+              <dia:attribute name="value">
+                              <dia:enum val="0"/>
+                            </dia:attribute>
+              <dia:attribute name="kind">
+                              <dia:enum val="0"/>
+                            </dia:attribute>
+            </dia:composite>
+                      </dia:attribute>
+	          </dia:composite>
+                <dia:composite type="umloperation">
+          <dia:attribute name="name">
+            <dia:string>#RenderWater#</dia:string>
+          </dia:attribute>
+          <dia:attribute name="type">
+	              <dia:string>#void #</dia:string>
+	            </dia:attribute>
+          <dia:attribute name="visibility">
+            <dia:enum val="0"/>
+          </dia:attribute>
+          <dia:attribute name="abstract">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+          <dia:attribute name="class_scope">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+	            <dia:attribute name="parameters">
+                        <dia:composite type="umlparameter">
+              <dia:attribute name="name">
+                <dia:string>#renderer#</dia:string>
+              </dia:attribute>
+              <dia:attribute name="type">
+                <dia:string>#Renderer*#</dia:string>
+              </dia:attribute>
+              <dia:attribute name="value">
+                              <dia:enum val="0"/>
+                            </dia:attribute>
+              <dia:attribute name="kind">
+                              <dia:enum val="0"/>
+                            </dia:attribute>
+            </dia:composite>
+                      </dia:attribute>
+	          </dia:composite>
+              </dia:attribute>
+            <dia:attribute name="template">
+        <dia:boolean val="false"/>
+      </dia:attribute>
+      <dia:attribute name="templates"/>
+    </dia:object>
+    <dia:object type="UML - Class" version="0" id="O2">
+      <dia:attribute name="obj_pos">
+        <dia:point val="6.300,-6.750"/>
+      </dia:attribute>
+      <dia:attribute name="obj_bb">
+        <dia:rectangle val="6.300,-6.750;15.300,12.850"/>
+      </dia:attribute>
+      <dia:attribute name="elem_corner">
+        <dia:point val="6.300,-6.750"/>
+      </dia:attribute>
+      <dia:attribute name="elem_width">
+        <dia:real val="9.000"/>
+      </dia:attribute>
+      <dia:attribute name="elem_height">
+        <dia:real val="19.600"/>
+      </dia:attribute>
+      <dia:attribute name="name">
+        <dia:string>#Game#</dia:string>
+      </dia:attribute>
+      <dia:attribute name="stereotype">
+              <dia:string/>
+            </dia:attribute>
+      <dia:attribute name="abstract">
+        <dia:boolean val="false"/>
+      </dia:attribute>
+      <dia:attribute name="suppress_attributes">
+        <dia:boolean val="false"/>
+      </dia:attribute>
+      <dia:attribute name="suppress_operations">
+        <dia:boolean val="false"/>
+      </dia:attribute>
+      <dia:attribute name="visible_attributes">
+        <dia:boolean val="true"/>
+      </dia:attribute>
+      <dia:attribute name="visible_operations">
+        <dia:boolean val="true"/>
+      </dia:attribute>
+      <dia:attribute name="foreground_color">
+        <dia:color val="#000000"/>
+      </dia:attribute>
+      <dia:attribute name="background_color">
+        <dia:color val="#ffffff"/>
+      </dia:attribute>
+
+            <dia:attribute name="attributes">
+                <dia:composite type="umlattribute">
+          <dia:attribute name="name">
+            <dia:string>#m_renderer#</dia:string>
+          </dia:attribute>
+          <dia:attribute name="type">
+            <dia:string>#Renderer		#</dia:string>
+          </dia:attribute>
+          <dia:attribute name="value">
+            <dia:string></dia:string>
+          </dia:attribute>
+          <dia:attribute name="visibility">
+            <dia:enum val="1"/>
+          </dia:attribute>
+          <dia:attribute name="abstract">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+          <dia:attribute name="class_scope">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+        </dia:composite>
+                <dia:composite type="umlattribute">
+          <dia:attribute name="name">
+            <dia:string>#m_camera#</dia:string>
+          </dia:attribute>
+          <dia:attribute name="type">
+            <dia:string>#Camera			#</dia:string>
+          </dia:attribute>
+          <dia:attribute name="value">
+            <dia:string></dia:string>
+          </dia:attribute>
+          <dia:attribute name="visibility">
+            <dia:enum val="1"/>
+          </dia:attribute>
+          <dia:attribute name="abstract">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+          <dia:attribute name="class_scope">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+        </dia:composite>
+                <dia:composite type="umlattribute">
+          <dia:attribute name="name">
+            <dia:string>#m_math#</dia:string>
+          </dia:attribute>
+          <dia:attribute name="type">
+            <dia:string>#Math			#</dia:string>
+          </dia:attribute>
+          <dia:attribute name="value">
+            <dia:string></dia:string>
+          </dia:attribute>
+          <dia:attribute name="visibility">
+            <dia:enum val="1"/>
+          </dia:attribute>
+          <dia:attribute name="abstract">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+          <dia:attribute name="class_scope">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+        </dia:composite>
+                <dia:composite type="umlattribute">
+          <dia:attribute name="name">
+            <dia:string>#m_modelManager#</dia:string>
+          </dia:attribute>
+          <dia:attribute name="type">
+            <dia:string>#ModelManager	#</dia:string>
+          </dia:attribute>
+          <dia:attribute name="value">
+            <dia:string></dia:string>
+          </dia:attribute>
+          <dia:attribute name="visibility">
+            <dia:enum val="1"/>
+          </dia:attribute>
+          <dia:attribute name="abstract">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+          <dia:attribute name="class_scope">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+        </dia:composite>
+                <dia:composite type="umlattribute">
+          <dia:attribute name="name">
+            <dia:string>#m_info#</dia:string>
+          </dia:attribute>
+          <dia:attribute name="type">
+            <dia:string>#Info*#</dia:string>
+          </dia:attribute>
+          <dia:attribute name="value">
+            <dia:string></dia:string>
+          </dia:attribute>
+          <dia:attribute name="visibility">
+            <dia:enum val="1"/>
+          </dia:attribute>
+          <dia:attribute name="abstract">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+          <dia:attribute name="class_scope">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+        </dia:composite>
+                <dia:composite type="umlattribute">
+          <dia:attribute name="name">
+            <dia:string>#m_splash#</dia:string>
+          </dia:attribute>
+          <dia:attribute name="type">
+            <dia:string>#Texture*#</dia:string>
+          </dia:attribute>
+          <dia:attribute name="value">
+            <dia:string></dia:string>
+          </dia:attribute>
+          <dia:attribute name="visibility">
+            <dia:enum val="1"/>
+          </dia:attribute>
+          <dia:attribute name="abstract">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+          <dia:attribute name="class_scope">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+        </dia:composite>
+                <dia:composite type="umlattribute">
+          <dia:attribute name="name">
+            <dia:string>#m_seascape#</dia:string>
+          </dia:attribute>
+          <dia:attribute name="type">
+            <dia:string>#Seascape*#</dia:string>
+          </dia:attribute>
+          <dia:attribute name="value">
+            <dia:string></dia:string>
+          </dia:attribute>
+          <dia:attribute name="visibility">
+            <dia:enum val="1"/>
+          </dia:attribute>
+          <dia:attribute name="abstract">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+          <dia:attribute name="class_scope">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+        </dia:composite>
+                <dia:composite type="umlattribute">
+          <dia:attribute name="name">
+            <dia:string>#m_racers#</dia:string>
+          </dia:attribute>
+          <dia:attribute name="type">
+            <dia:string>#Racer*#</dia:string>
+          </dia:attribute>
+          <dia:attribute name="value">
+            <dia:string></dia:string>
+          </dia:attribute>
+          <dia:attribute name="visibility">
+            <dia:enum val="1"/>
+          </dia:attribute>
+          <dia:attribute name="abstract">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+          <dia:attribute name="class_scope">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+        </dia:composite>
+                <dia:composite type="umlattribute">
+          <dia:attribute name="name">
+            <dia:string>#m_numRacers#</dia:string>
+          </dia:attribute>
+          <dia:attribute name="type">
+            <dia:string>#int32 #</dia:string>
+          </dia:attribute>
+          <dia:attribute name="value">
+            <dia:string></dia:string>
+          </dia:attribute>
+          <dia:attribute name="visibility">
+            <dia:enum val="1"/>
+          </dia:attribute>
+          <dia:attribute name="abstract">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+          <dia:attribute name="class_scope">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+        </dia:composite>
+                <dia:composite type="umlattribute">
+          <dia:attribute name="name">
+            <dia:string>#m_raceCourse#</dia:string>
+          </dia:attribute>
+          <dia:attribute name="type">
+            <dia:string>#RaceCourse*#</dia:string>
+          </dia:attribute>
+          <dia:attribute name="value">
+            <dia:string></dia:string>
+          </dia:attribute>
+          <dia:attribute name="visibility">
+            <dia:enum val="1"/>
+          </dia:attribute>
+          <dia:attribute name="abstract">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+          <dia:attribute name="class_scope">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+        </dia:composite>
+                <dia:composite type="umlattribute">
+          <dia:attribute name="name">
+            <dia:string>#m_playing#</dia:string>
+          </dia:attribute>
+          <dia:attribute name="type">
+            <dia:string>#bool #</dia:string>
+          </dia:attribute>
+          <dia:attribute name="value">
+            <dia:string></dia:string>
+          </dia:attribute>
+          <dia:attribute name="visibility">
+            <dia:enum val="1"/>
+          </dia:attribute>
+          <dia:attribute name="abstract">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+          <dia:attribute name="class_scope">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+        </dia:composite>
+                <dia:composite type="umlattribute">
+          <dia:attribute name="name">
+            <dia:string>#m_hasWon#</dia:string>
+          </dia:attribute>
+          <dia:attribute name="type">
+            <dia:string>#bool #</dia:string>
+          </dia:attribute>
+          <dia:attribute name="value">
+            <dia:string></dia:string>
+          </dia:attribute>
+          <dia:attribute name="visibility">
+            <dia:enum val="1"/>
+          </dia:attribute>
+          <dia:attribute name="abstract">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+          <dia:attribute name="class_scope">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+        </dia:composite>
+              </dia:attribute>
+                  <dia:attribute name="operations">
+                <dia:composite type="umloperation">
+          <dia:attribute name="name">
+            <dia:string>#Game#</dia:string>
+          </dia:attribute>
+          <dia:attribute name="type">
+	  	     <dia:string/>
+	            </dia:attribute>
+          <dia:attribute name="visibility">
+            <dia:enum val="0"/>
+          </dia:attribute>
+          <dia:attribute name="abstract">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+          <dia:attribute name="class_scope">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+	  	  <dia:attribute name = "parameters"/>
+	          </dia:composite>
+                <dia:composite type="umloperation">
+          <dia:attribute name="name">
+            <dia:string>#~Game#</dia:string>
+          </dia:attribute>
+          <dia:attribute name="type">
+	  	     <dia:string/>
+	            </dia:attribute>
+          <dia:attribute name="visibility">
+            <dia:enum val="0"/>
+          </dia:attribute>
+          <dia:attribute name="abstract">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+          <dia:attribute name="class_scope">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+	  	  <dia:attribute name = "parameters"/>
+	          </dia:composite>
+                <dia:composite type="umloperation">
+          <dia:attribute name="name">
+            <dia:string>#Menu#</dia:string>
+          </dia:attribute>
+          <dia:attribute name="type">
+	              <dia:string>#void #</dia:string>
+	            </dia:attribute>
+          <dia:attribute name="visibility">
+            <dia:enum val="0"/>
+          </dia:attribute>
+          <dia:attribute name="abstract">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+          <dia:attribute name="class_scope">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+	  	  <dia:attribute name = "parameters"/>
+	          </dia:composite>
+                <dia:composite type="umloperation">
+          <dia:attribute name="name">
+            <dia:string>#Create#</dia:string>
+          </dia:attribute>
+          <dia:attribute name="type">
+	              <dia:string>#bool #</dia:string>
+	            </dia:attribute>
+          <dia:attribute name="visibility">
+            <dia:enum val="0"/>
+          </dia:attribute>
+          <dia:attribute name="abstract">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+          <dia:attribute name="class_scope">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+	            <dia:attribute name="parameters">
+                        <dia:composite type="umlparameter">
+              <dia:attribute name="name">
+                <dia:string>#w#</dia:string>
+              </dia:attribute>
+              <dia:attribute name="type">
+                <dia:string>#int#</dia:string>
+              </dia:attribute>
+              <dia:attribute name="value">
+                              <dia:enum val="0"/>
+                            </dia:attribute>
+              <dia:attribute name="kind">
+                              <dia:enum val="0"/>
+                            </dia:attribute>
+            </dia:composite>
+                        <dia:composite type="umlparameter">
+              <dia:attribute name="name">
+                <dia:string>#h#</dia:string>
+              </dia:attribute>
+              <dia:attribute name="type">
+                <dia:string>#int#</dia:string>
+              </dia:attribute>
+              <dia:attribute name="value">
+                              <dia:enum val="0"/>
+                            </dia:attribute>
+              <dia:attribute name="kind">
+                              <dia:enum val="0"/>
+                            </dia:attribute>
+            </dia:composite>
+                        <dia:composite type="umlparameter">
+              <dia:attribute name="name">
+                <dia:string>#hWnd#</dia:string>
+              </dia:attribute>
+              <dia:attribute name="type">
+                <dia:string>#HWND*#</dia:string>
+              </dia:attribute>
+              <dia:attribute name="value">
+                              <dia:enum val="0"/>
+                            </dia:attribute>
+              <dia:attribute name="kind">
+                              <dia:enum val="0"/>
+                            </dia:attribute>
+            </dia:composite>
+                      </dia:attribute>
+	          </dia:composite>
+                <dia:composite type="umloperation">
+          <dia:attribute name="name">
+            <dia:string>#Destroy#</dia:string>
+          </dia:attribute>
+          <dia:attribute name="type">
+	              <dia:string>#void #</dia:string>
+	            </dia:attribute>
+          <dia:attribute name="visibility">
+            <dia:enum val="0"/>
+          </dia:attribute>
+          <dia:attribute name="abstract">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+          <dia:attribute name="class_scope">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+	  	  <dia:attribute name = "parameters"/>
+	          </dia:composite>
+                <dia:composite type="umloperation">
+          <dia:attribute name="name">
+            <dia:string>#Tick#</dia:string>
+          </dia:attribute>
+          <dia:attribute name="type">
+	              <dia:string>#void #</dia:string>
+	            </dia:attribute>
+          <dia:attribute name="visibility">
+            <dia:enum val="0"/>
+          </dia:attribute>
+          <dia:attribute name="abstract">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+          <dia:attribute name="class_scope">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+	            <dia:attribute name="parameters">
+                        <dia:composite type="umlparameter">
+              <dia:attribute name="name">
+                <dia:string>#timeElapsed#</dia:string>
+              </dia:attribute>
+              <dia:attribute name="type">
+                <dia:string>#int#</dia:string>
+              </dia:attribute>
+              <dia:attribute name="value">
+                              <dia:enum val="0"/>
+                            </dia:attribute>
+              <dia:attribute name="kind">
+                              <dia:enum val="0"/>
+                            </dia:attribute>
+            </dia:composite>
+                      </dia:attribute>
+	          </dia:composite>
+                <dia:composite type="umloperation">
+          <dia:attribute name="name">
+            <dia:string>#KeyDown#</dia:string>
+          </dia:attribute>
+          <dia:attribute name="type">
+	              <dia:string>#void #</dia:string>
+	            </dia:attribute>
+          <dia:attribute name="visibility">
+            <dia:enum val="0"/>
+          </dia:attribute>
+          <dia:attribute name="abstract">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+          <dia:attribute name="class_scope">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+	            <dia:attribute name="parameters">
+                        <dia:composite type="umlparameter">
+              <dia:attribute name="name">
+                <dia:string>#keyCode#</dia:string>
+              </dia:attribute>
+              <dia:attribute name="type">
+                <dia:string>#int#</dia:string>
+              </dia:attribute>
+              <dia:attribute name="value">
+                              <dia:enum val="0"/>
+                            </dia:attribute>
+              <dia:attribute name="kind">
+                              <dia:enum val="0"/>
+                            </dia:attribute>
+            </dia:composite>
+                      </dia:attribute>
+	          </dia:composite>
+                <dia:composite type="umloperation">
+          <dia:attribute name="name">
+            <dia:string>#KeyUp#</dia:string>
+          </dia:attribute>
+          <dia:attribute name="type">
+	              <dia:string>#void #</dia:string>
+	            </dia:attribute>
+          <dia:attribute name="visibility">
+            <dia:enum val="0"/>
+          </dia:attribute>
+          <dia:attribute name="abstract">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+          <dia:attribute name="class_scope">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+	            <dia:attribute name="parameters">
+                        <dia:composite type="umlparameter">
+              <dia:attribute name="name">
+                <dia:string>#keyCode#</dia:string>
+              </dia:attribute>
+              <dia:attribute name="type">
+                <dia:string>#int#</dia:string>
+              </dia:attribute>
+              <dia:attribute name="value">
+                              <dia:enum val="0"/>
+                            </dia:attribute>
+              <dia:attribute name="kind">
+                              <dia:enum val="0"/>
+                            </dia:attribute>
+            </dia:composite>
+                      </dia:attribute>
+	          </dia:composite>
+                <dia:composite type="umloperation">
+          <dia:attribute name="name">
+            <dia:string>#GetWidth#</dia:string>
+          </dia:attribute>
+          <dia:attribute name="type">
+	              <dia:string>#int #</dia:string>
+	            </dia:attribute>
+          <dia:attribute name="visibility">
+            <dia:enum val="0"/>
+          </dia:attribute>
+          <dia:attribute name="abstract">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+          <dia:attribute name="class_scope">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+	  	  <dia:attribute name = "parameters"/>
+	          </dia:composite>
+                <dia:composite type="umloperation">
+          <dia:attribute name="name">
+            <dia:string>#GetHeight#</dia:string>
+          </dia:attribute>
+          <dia:attribute name="type">
+	              <dia:string>#int #</dia:string>
+	            </dia:attribute>
+          <dia:attribute name="visibility">
+            <dia:enum val="0"/>
+          </dia:attribute>
+          <dia:attribute name="abstract">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+          <dia:attribute name="class_scope">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+	  	  <dia:attribute name = "parameters"/>
+	          </dia:composite>
+              </dia:attribute>
+            <dia:attribute name="template">
+        <dia:boolean val="false"/>
+      </dia:attribute>
+      <dia:attribute name="templates"/>
+    </dia:object>
+    <dia:object type="UML - Class" version="0" id="O3">
+      <dia:attribute name="obj_pos">
+        <dia:point val="-44.100,-6.750"/>
+      </dia:attribute>
+      <dia:attribute name="obj_bb">
+        <dia:rectangle val="-44.100,-6.750;-35.100,1.650"/>
+      </dia:attribute>
+      <dia:attribute name="elem_corner">
+        <dia:point val="-44.100,-6.750"/>
+      </dia:attribute>
+      <dia:attribute name="elem_width">
+        <dia:real val="9.000"/>
+      </dia:attribute>
+      <dia:attribute name="elem_height">
+        <dia:real val="8.400"/>
+      </dia:attribute>
+      <dia:attribute name="name">
+        <dia:string>#Math#</dia:string>
+      </dia:attribute>
+      <dia:attribute name="stereotype">
+              <dia:string/>
+            </dia:attribute>
+      <dia:attribute name="abstract">
+        <dia:boolean val="false"/>
+      </dia:attribute>
+      <dia:attribute name="suppress_attributes">
+        <dia:boolean val="false"/>
+      </dia:attribute>
+      <dia:attribute name="suppress_operations">
+        <dia:boolean val="false"/>
+      </dia:attribute>
+      <dia:attribute name="visible_attributes">
+        <dia:boolean val="true"/>
+      </dia:attribute>
+      <dia:attribute name="visible_operations">
+        <dia:boolean val="true"/>
+      </dia:attribute>
+      <dia:attribute name="foreground_color">
+        <dia:color val="#000000"/>
+      </dia:attribute>
+      <dia:attribute name="background_color">
+        <dia:color val="#ffffff"/>
+      </dia:attribute>
+
+            <dia:attribute name="attributes">
+                <dia:composite type="umlattribute">
+          <dia:attribute name="name">
+            <dia:string>#m_sinTable#</dia:string>
+          </dia:attribute>
+          <dia:attribute name="type">
+            <dia:string>#int32*#</dia:string>
+          </dia:attribute>
+          <dia:attribute name="value">
+            <dia:string></dia:string>
+          </dia:attribute>
+          <dia:attribute name="visibility">
+            <dia:enum val="1"/>
+          </dia:attribute>
+          <dia:attribute name="abstract">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+          <dia:attribute name="class_scope">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+        </dia:composite>
+                <dia:composite type="umlattribute">
+          <dia:attribute name="name">
+            <dia:string>#m_cosTable#</dia:string>
+          </dia:attribute>
+          <dia:attribute name="type">
+            <dia:string>#int32*#</dia:string>
+          </dia:attribute>
+          <dia:attribute name="value">
+            <dia:string></dia:string>
+          </dia:attribute>
+          <dia:attribute name="visibility">
+            <dia:enum val="1"/>
+          </dia:attribute>
+          <dia:attribute name="abstract">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+          <dia:attribute name="class_scope">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+        </dia:composite>
+                <dia:composite type="umlattribute">
+          <dia:attribute name="name">
+            <dia:string>#m_accuracy#</dia:string>
+          </dia:attribute>
+          <dia:attribute name="type">
+            <dia:string>#float #</dia:string>
+          </dia:attribute>
+          <dia:attribute name="value">
+            <dia:string></dia:string>
+          </dia:attribute>
+          <dia:attribute name="visibility">
+            <dia:enum val="1"/>
+          </dia:attribute>
+          <dia:attribute name="abstract">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+          <dia:attribute name="class_scope">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+        </dia:composite>
+              </dia:attribute>
+                  <dia:attribute name="operations">
+                <dia:composite type="umloperation">
+          <dia:attribute name="name">
+            <dia:string>#Math#</dia:string>
+          </dia:attribute>
+          <dia:attribute name="type">
+	  	     <dia:string/>
+	            </dia:attribute>
+          <dia:attribute name="visibility">
+            <dia:enum val="0"/>
+          </dia:attribute>
+          <dia:attribute name="abstract">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+          <dia:attribute name="class_scope">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+	  	  <dia:attribute name = "parameters"/>
+	          </dia:composite>
+                <dia:composite type="umloperation">
+          <dia:attribute name="name">
+            <dia:string>#~Math#</dia:string>
+          </dia:attribute>
+          <dia:attribute name="type">
+	  	     <dia:string/>
+	            </dia:attribute>
+          <dia:attribute name="visibility">
+            <dia:enum val="0"/>
+          </dia:attribute>
+          <dia:attribute name="abstract">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+          <dia:attribute name="class_scope">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+	  	  <dia:attribute name = "parameters"/>
+	          </dia:composite>
+                <dia:composite type="umloperation">
+          <dia:attribute name="name">
+            <dia:string>#Initialize#</dia:string>
+          </dia:attribute>
+          <dia:attribute name="type">
+	              <dia:string>#void #</dia:string>
+	            </dia:attribute>
+          <dia:attribute name="visibility">
+            <dia:enum val="0"/>
+          </dia:attribute>
+          <dia:attribute name="abstract">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+          <dia:attribute name="class_scope">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+	  	  <dia:attribute name = "parameters"/>
+	          </dia:composite>
+                <dia:composite type="umloperation">
+          <dia:attribute name="name">
+            <dia:string>#fsinf#</dia:string>
+          </dia:attribute>
+          <dia:attribute name="type">
+	              <dia:string>#inline int32 #</dia:string>
+	            </dia:attribute>
+          <dia:attribute name="visibility">
+            <dia:enum val="0"/>
+          </dia:attribute>
+          <dia:attribute name="abstract">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+          <dia:attribute name="class_scope">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+	            <dia:attribute name="parameters">
+                        <dia:composite type="umlparameter">
+              <dia:attribute name="name">
+                <dia:string>#f#</dia:string>
+              </dia:attribute>
+              <dia:attribute name="type">
+                <dia:string>#int32#</dia:string>
+              </dia:attribute>
+              <dia:attribute name="value">
+                              <dia:enum val="0"/>
+                            </dia:attribute>
+              <dia:attribute name="kind">
+                              <dia:enum val="0"/>
+                            </dia:attribute>
+            </dia:composite>
+                      </dia:attribute>
+	          </dia:composite>
+                <dia:composite type="umloperation">
+          <dia:attribute name="name">
+            <dia:string>#fcosf#</dia:string>
+          </dia:attribute>
+          <dia:attribute name="type">
+	              <dia:string>#inline int32 #</dia:string>
+	            </dia:attribute>
+          <dia:attribute name="visibility">
+            <dia:enum val="0"/>
+          </dia:attribute>
+          <dia:attribute name="abstract">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+          <dia:attribute name="class_scope">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+	            <dia:attribute name="parameters">
+                        <dia:composite type="umlparameter">
+              <dia:attribute name="name">
+                <dia:string>#f#</dia:string>
+              </dia:attribute>
+              <dia:attribute name="type">
+                <dia:string>#int32#</dia:string>
+              </dia:attribute>
+              <dia:attribute name="value">
+                              <dia:enum val="0"/>
+                            </dia:attribute>
+              <dia:attribute name="kind">
+                              <dia:enum val="0"/>
+                            </dia:attribute>
+            </dia:composite>
+                      </dia:attribute>
+	          </dia:composite>
+              </dia:attribute>
+            <dia:attribute name="template">
+        <dia:boolean val="false"/>
+      </dia:attribute>
+      <dia:attribute name="templates"/>
+    </dia:object>
+    <dia:object type="UML - Class" version="0" id="O8">
+      <dia:attribute name="obj_pos">
+        <dia:point val="18.900,-6.750"/>
+      </dia:attribute>
+      <dia:attribute name="obj_bb">
+        <dia:rectangle val="18.900,-6.750;27.900,0.850"/>
+      </dia:attribute>
+      <dia:attribute name="elem_corner">
+        <dia:point val="18.900,-6.750"/>
+      </dia:attribute>
+      <dia:attribute name="elem_width">
+        <dia:real val="9.000"/>
+      </dia:attribute>
+      <dia:attribute name="elem_height">
+        <dia:real val="7.600"/>
+      </dia:attribute>
+      <dia:attribute name="name">
+        <dia:string>#RenderDataManager#</dia:string>
+      </dia:attribute>
+      <dia:attribute name="stereotype">
+              <dia:string/>
+            </dia:attribute>
+      <dia:attribute name="abstract">
+        <dia:boolean val="false"/>
+      </dia:attribute>
+      <dia:attribute name="suppress_attributes">
+        <dia:boolean val="false"/>
+      </dia:attribute>
+      <dia:attribute name="suppress_operations">
+        <dia:boolean val="false"/>
+      </dia:attribute>
+      <dia:attribute name="visible_attributes">
+        <dia:boolean val="true"/>
+      </dia:attribute>
+      <dia:attribute name="visible_operations">
+        <dia:boolean val="true"/>
+      </dia:attribute>
+      <dia:attribute name="foreground_color">
+        <dia:color val="#000000"/>
+      </dia:attribute>
+      <dia:attribute name="background_color">
+        <dia:color val="#ffffff"/>
+      </dia:attribute>
+
+            <dia:attribute name="attributes">
+                <dia:composite type="umlattribute">
+          <dia:attribute name="name">
+            <dia:string>#m_renderDataList#</dia:string>
+          </dia:attribute>
+          <dia:attribute name="type">
+            <dia:string>#RenderData*#</dia:string>
+          </dia:attribute>
+          <dia:attribute name="value">
+            <dia:string></dia:string>
+          </dia:attribute>
+          <dia:attribute name="visibility">
+            <dia:enum val="1"/>
+          </dia:attribute>
+          <dia:attribute name="abstract">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+          <dia:attribute name="class_scope">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+        </dia:composite>
+              </dia:attribute>
+                  <dia:attribute name="operations">
+                <dia:composite type="umloperation">
+          <dia:attribute name="name">
+            <dia:string>#RenderDataManager#</dia:string>
+          </dia:attribute>
+          <dia:attribute name="type">
+	  	     <dia:string/>
+	            </dia:attribute>
+          <dia:attribute name="visibility">
+            <dia:enum val="0"/>
+          </dia:attribute>
+          <dia:attribute name="abstract">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+          <dia:attribute name="class_scope">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+	  	  <dia:attribute name = "parameters"/>
+	          </dia:composite>
+                <dia:composite type="umloperation">
+          <dia:attribute name="name">
+            <dia:string>#~RenderDataManager#</dia:string>
+          </dia:attribute>
+          <dia:attribute name="type">
+	  	     <dia:string/>
+	            </dia:attribute>
+          <dia:attribute name="visibility">
+            <dia:enum val="0"/>
+          </dia:attribute>
+          <dia:attribute name="abstract">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+          <dia:attribute name="class_scope">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+	  	  <dia:attribute name = "parameters"/>
+	          </dia:composite>
+                <dia:composite type="umloperation">
+          <dia:attribute name="name">
+            <dia:string>#AddData#</dia:string>
+          </dia:attribute>
+          <dia:attribute name="type">
+	              <dia:string>#inline void #</dia:string>
+	            </dia:attribute>
+          <dia:attribute name="visibility">
+            <dia:enum val="0"/>
+          </dia:attribute>
+          <dia:attribute name="abstract">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+          <dia:attribute name="class_scope">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+	            <dia:attribute name="parameters">
+                        <dia:composite type="umlparameter">
+              <dia:attribute name="name">
+                <dia:string>#data#</dia:string>
+              </dia:attribute>
+              <dia:attribute name="type">
+                <dia:string>#RenderData*#</dia:string>
+              </dia:attribute>
+              <dia:attribute name="value">
+                              <dia:enum val="0"/>
+                            </dia:attribute>
+              <dia:attribute name="kind">
+                              <dia:enum val="0"/>
+                            </dia:attribute>
+            </dia:composite>
+                      </dia:attribute>
+	          </dia:composite>
+                <dia:composite type="umloperation">
+          <dia:attribute name="name">
+            <dia:string>#GetData#</dia:string>
+          </dia:attribute>
+          <dia:attribute name="type">
+	              <dia:string>#inline RenderData*#</dia:string>
+	            </dia:attribute>
+          <dia:attribute name="visibility">
+            <dia:enum val="0"/>
+          </dia:attribute>
+          <dia:attribute name="abstract">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+          <dia:attribute name="class_scope">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+	            <dia:attribute name="parameters">
+                        <dia:composite type="umlparameter">
+              <dia:attribute name="name">
+                <dia:string>#desiredData#</dia:string>
+              </dia:attribute>
+              <dia:attribute name="type">
+                <dia:string>#RenderData*#</dia:string>
+              </dia:attribute>
+              <dia:attribute name="value">
+                              <dia:enum val="0"/>
+                            </dia:attribute>
+              <dia:attribute name="kind">
+                              <dia:enum val="0"/>
+                            </dia:attribute>
+            </dia:composite>
+                      </dia:attribute>
+	          </dia:composite>
+                <dia:composite type="umloperation">
+          <dia:attribute name="name">
+            <dia:string>#ReleaseData#</dia:string>
+          </dia:attribute>
+          <dia:attribute name="type">
+	              <dia:string>#inline void #</dia:string>
+	            </dia:attribute>
+          <dia:attribute name="visibility">
+            <dia:enum val="0"/>
+          </dia:attribute>
+          <dia:attribute name="abstract">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+          <dia:attribute name="class_scope">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+	            <dia:attribute name="parameters">
+                        <dia:composite type="umlparameter">
+              <dia:attribute name="name">
+                <dia:string>#data#</dia:string>
+              </dia:attribute>
+              <dia:attribute name="type">
+                <dia:string>#RenderData*#</dia:string>
+              </dia:attribute>
+              <dia:attribute name="value">
+                              <dia:enum val="0"/>
+                            </dia:attribute>
+              <dia:attribute name="kind">
+                              <dia:enum val="0"/>
+                            </dia:attribute>
+            </dia:composite>
+                      </dia:attribute>
+	          </dia:composite>
+                <dia:composite type="umloperation">
+          <dia:attribute name="name">
+            <dia:string>#ClearData#</dia:string>
+          </dia:attribute>
+          <dia:attribute name="type">
+	              <dia:string>#inline void #</dia:string>
+	            </dia:attribute>
+          <dia:attribute name="visibility">
+            <dia:enum val="0"/>
+          </dia:attribute>
+          <dia:attribute name="abstract">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+          <dia:attribute name="class_scope">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+	            <dia:attribute name="parameters">
+                        <dia:composite type="umlparameter">
+              <dia:attribute name="name">
+                <dia:string>#data#</dia:string>
+              </dia:attribute>
+              <dia:attribute name="type">
+                <dia:string>#RenderData*#</dia:string>
+              </dia:attribute>
+              <dia:attribute name="value">
+                              <dia:enum val="0"/>
+                            </dia:attribute>
+              <dia:attribute name="kind">
+                              <dia:enum val="0"/>
+                            </dia:attribute>
+            </dia:composite>
+                      </dia:attribute>
+	          </dia:composite>
+              </dia:attribute>
+            <dia:attribute name="template">
+        <dia:boolean val="false"/>
+      </dia:attribute>
+      <dia:attribute name="templates"/>
+    </dia:object>
+    <dia:object type="UML - Class" version="0" id="O12">
+      <dia:attribute name="obj_pos">
+        <dia:point val="-6.300,-6.750"/>
+      </dia:attribute>
+      <dia:attribute name="obj_bb">
+        <dia:rectangle val="-6.300,-6.750;2.700,0.050"/>
+      </dia:attribute>
+      <dia:attribute name="elem_corner">
+        <dia:point val="-6.300,-6.750"/>
+      </dia:attribute>
+      <dia:attribute name="elem_width">
+        <dia:real val="9.000"/>
+      </dia:attribute>
+      <dia:attribute name="elem_height">
+        <dia:real val="6.800"/>
+      </dia:attribute>
+      <dia:attribute name="name">
+        <dia:string>#Texture#</dia:string>
+      </dia:attribute>
+      <dia:attribute name="stereotype">
+              <dia:string/>
+            </dia:attribute>
+      <dia:attribute name="abstract">
+        <dia:boolean val="false"/>
+      </dia:attribute>
+      <dia:attribute name="suppress_attributes">
+        <dia:boolean val="false"/>
+      </dia:attribute>
+      <dia:attribute name="suppress_operations">
+        <dia:boolean val="false"/>
+      </dia:attribute>
+      <dia:attribute name="visible_attributes">
+        <dia:boolean val="true"/>
+      </dia:attribute>
+      <dia:attribute name="visible_operations">
+        <dia:boolean val="true"/>
+      </dia:attribute>
+      <dia:attribute name="foreground_color">
+        <dia:color val="#000000"/>
+      </dia:attribute>
+      <dia:attribute name="background_color">
+        <dia:color val="#ffffff"/>
+      </dia:attribute>
+
+            <dia:attribute name="attributes">
+                <dia:composite type="umlattribute">
+          <dia:attribute name="name">
+            <dia:string>#m_id#</dia:string>
+          </dia:attribute>
+          <dia:attribute name="type">
+            <dia:string>#GLuint #</dia:string>
+          </dia:attribute>
+          <dia:attribute name="value">
+            <dia:string></dia:string>
+          </dia:attribute>
+          <dia:attribute name="visibility">
+            <dia:enum val="1"/>
+          </dia:attribute>
+          <dia:attribute name="abstract">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+          <dia:attribute name="class_scope">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+        </dia:composite>
+              </dia:attribute>
+                  <dia:attribute name="operations">
+                <dia:composite type="umloperation">
+          <dia:attribute name="name">
+            <dia:string>#Texture#</dia:string>
+          </dia:attribute>
+          <dia:attribute name="type">
+	  	     <dia:string/>
+	            </dia:attribute>
+          <dia:attribute name="visibility">
+            <dia:enum val="0"/>
+          </dia:attribute>
+          <dia:attribute name="abstract">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+          <dia:attribute name="class_scope">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+	  	  <dia:attribute name = "parameters"/>
+	          </dia:composite>
+                <dia:composite type="umloperation">
+          <dia:attribute name="name">
+            <dia:string>#~Texture#</dia:string>
+          </dia:attribute>
+          <dia:attribute name="type">
+	  	     <dia:string/>
+	            </dia:attribute>
+          <dia:attribute name="visibility">
+            <dia:enum val="0"/>
+          </dia:attribute>
+          <dia:attribute name="abstract">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+          <dia:attribute name="class_scope">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+	  	  <dia:attribute name = "parameters"/>
+	          </dia:composite>
+                <dia:composite type="umloperation">
+          <dia:attribute name="name">
+            <dia:string>#id#</dia:string>
+          </dia:attribute>
+          <dia:attribute name="type">
+	              <dia:string>#inline GLuint #</dia:string>
+	            </dia:attribute>
+          <dia:attribute name="visibility">
+            <dia:enum val="0"/>
+          </dia:attribute>
+          <dia:attribute name="abstract">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+          <dia:attribute name="class_scope">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+	  	  <dia:attribute name = "parameters"/>
+	          </dia:composite>
+                <dia:composite type="umloperation">
+          <dia:attribute name="name">
+            <dia:string>#Load#</dia:string>
+          </dia:attribute>
+          <dia:attribute name="type">
+	              <dia:string>#void #</dia:string>
+	            </dia:attribute>
+          <dia:attribute name="visibility">
+            <dia:enum val="0"/>
+          </dia:attribute>
+          <dia:attribute name="abstract">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+          <dia:attribute name="class_scope">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+	            <dia:attribute name="parameters">
+                        <dia:composite type="umlparameter">
+              <dia:attribute name="name">
+                <dia:string>#id#</dia:string>
+              </dia:attribute>
+              <dia:attribute name="type">
+                <dia:string>#uint16#</dia:string>
+              </dia:attribute>
+              <dia:attribute name="value">
+                              <dia:enum val="0"/>
+                            </dia:attribute>
+              <dia:attribute name="kind">
+                              <dia:enum val="0"/>
+                            </dia:attribute>
+            </dia:composite>
+                      </dia:attribute>
+	          </dia:composite>
+                <dia:composite type="umloperation">
+          <dia:attribute name="name">
+            <dia:string>#Bind#</dia:string>
+          </dia:attribute>
+          <dia:attribute name="type">
+	              <dia:string>#inline void #</dia:string>
+	            </dia:attribute>
+          <dia:attribute name="visibility">
+            <dia:enum val="0"/>
+          </dia:attribute>
+          <dia:attribute name="abstract">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+          <dia:attribute name="class_scope">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+	  	  <dia:attribute name = "parameters"/>
+	          </dia:composite>
+              </dia:attribute>
+            <dia:attribute name="template">
+        <dia:boolean val="false"/>
+      </dia:attribute>
+      <dia:attribute name="templates"/>
+    </dia:object>
+    <dia:object type="UML - Class" version="0" id="O5">
+      <dia:attribute name="obj_pos">
+        <dia:point val="-81.900,-6.750"/>
+      </dia:attribute>
+      <dia:attribute name="obj_bb">
+        <dia:rectangle val="-81.900,-6.750;-72.900,5.650"/>
+      </dia:attribute>
+      <dia:attribute name="elem_corner">
+        <dia:point val="-81.900,-6.750"/>
+      </dia:attribute>
+      <dia:attribute name="elem_width">
+        <dia:real val="9.000"/>
+      </dia:attribute>
+      <dia:attribute name="elem_height">
+        <dia:real val="12.400"/>
+      </dia:attribute>
+      <dia:attribute name="name">
+        <dia:string>#ParticleSystem#</dia:string>
+      </dia:attribute>
+      <dia:attribute name="stereotype">
+              <dia:string/>
+            </dia:attribute>
+      <dia:attribute name="abstract">
+        <dia:boolean val="false"/>
+      </dia:attribute>
+      <dia:attribute name="suppress_attributes">
+        <dia:boolean val="false"/>
+      </dia:attribute>
+      <dia:attribute name="suppress_operations">
+        <dia:boolean val="false"/>
+      </dia:attribute>
+      <dia:attribute name="visible_attributes">
+        <dia:boolean val="true"/>
+      </dia:attribute>
+      <dia:attribute name="visible_operations">
+        <dia:boolean val="true"/>
+      </dia:attribute>
+      <dia:attribute name="foreground_color">
+        <dia:color val="#000000"/>
+      </dia:attribute>
+      <dia:attribute name="background_color">
+        <dia:color val="#ffffff"/>
+      </dia:attribute>
+
+            <dia:attribute name="attributes">
+                <dia:composite type="umlattribute">
+          <dia:attribute name="name">
+            <dia:string>#m_particles#</dia:string>
+          </dia:attribute>
+          <dia:attribute name="type">
+            <dia:string>#Particle*#</dia:string>
+          </dia:attribute>
+          <dia:attribute name="value">
+            <dia:string></dia:string>
+          </dia:attribute>
+          <dia:attribute name="visibility">
+            <dia:enum val="1"/>
+          </dia:attribute>
+          <dia:attribute name="abstract">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+          <dia:attribute name="class_scope">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+        </dia:composite>
+                <dia:composite type="umlattribute">
+          <dia:attribute name="name">
+            <dia:string>#m_numParticles#</dia:string>
+          </dia:attribute>
+          <dia:attribute name="type">
+            <dia:string>#int32 #</dia:string>
+          </dia:attribute>
+          <dia:attribute name="value">
+            <dia:string></dia:string>
+          </dia:attribute>
+          <dia:attribute name="visibility">
+            <dia:enum val="1"/>
+          </dia:attribute>
+          <dia:attribute name="abstract">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+          <dia:attribute name="class_scope">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+        </dia:composite>
+                <dia:composite type="umlattribute">
+          <dia:attribute name="name">
+            <dia:string>#m_maxLife#</dia:string>
+          </dia:attribute>
+          <dia:attribute name="type">
+            <dia:string>#int32 #</dia:string>
+          </dia:attribute>
+          <dia:attribute name="value">
+            <dia:string></dia:string>
+          </dia:attribute>
+          <dia:attribute name="visibility">
+            <dia:enum val="1"/>
+          </dia:attribute>
+          <dia:attribute name="abstract">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+          <dia:attribute name="class_scope">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+        </dia:composite>
+                <dia:composite type="umlattribute">
+          <dia:attribute name="name">
+            <dia:string>#m_emitPoint#</dia:string>
+          </dia:attribute>
+          <dia:attribute name="type">
+            <dia:string>#Vector3 #</dia:string>
+          </dia:attribute>
+          <dia:attribute name="value">
+            <dia:string></dia:string>
+          </dia:attribute>
+          <dia:attribute name="visibility">
+            <dia:enum val="1"/>
+          </dia:attribute>
+          <dia:attribute name="abstract">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+          <dia:attribute name="class_scope">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+        </dia:composite>
+                <dia:composite type="umlattribute">
+          <dia:attribute name="name">
+            <dia:string>#m_dir#</dia:string>
+          </dia:attribute>
+          <dia:attribute name="type">
+            <dia:string>#Vector3 #</dia:string>
+          </dia:attribute>
+          <dia:attribute name="value">
+            <dia:string></dia:string>
+          </dia:attribute>
+          <dia:attribute name="visibility">
+            <dia:enum val="1"/>
+          </dia:attribute>
+          <dia:attribute name="abstract">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+          <dia:attribute name="class_scope">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+        </dia:composite>
+              </dia:attribute>
+                  <dia:attribute name="operations">
+                <dia:composite type="umloperation">
+          <dia:attribute name="name">
+            <dia:string>#ParticleSystem#</dia:string>
+          </dia:attribute>
+          <dia:attribute name="type">
+	  	     <dia:string/>
+	            </dia:attribute>
+          <dia:attribute name="visibility">
+            <dia:enum val="0"/>
+          </dia:attribute>
+          <dia:attribute name="abstract">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+          <dia:attribute name="class_scope">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+	  	  <dia:attribute name = "parameters"/>
+	          </dia:composite>
+                <dia:composite type="umloperation">
+          <dia:attribute name="name">
+            <dia:string>#~ParticleSystem#</dia:string>
+          </dia:attribute>
+          <dia:attribute name="type">
+	  	     <dia:string/>
+	            </dia:attribute>
+          <dia:attribute name="visibility">
+            <dia:enum val="0"/>
+          </dia:attribute>
+          <dia:attribute name="abstract">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+          <dia:attribute name="class_scope">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+	  	  <dia:attribute name = "parameters"/>
+	          </dia:composite>
+                <dia:composite type="umloperation">
+          <dia:attribute name="name">
+            <dia:string>#Move#</dia:string>
+          </dia:attribute>
+          <dia:attribute name="type">
+	              <dia:string>#void #</dia:string>
+	            </dia:attribute>
+          <dia:attribute name="visibility">
+            <dia:enum val="0"/>
+          </dia:attribute>
+          <dia:attribute name="abstract">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+          <dia:attribute name="class_scope">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+	            <dia:attribute name="parameters">
+                        <dia:composite type="umlparameter">
+              <dia:attribute name="name">
+                <dia:string>#newEmitPoint#</dia:string>
+              </dia:attribute>
+              <dia:attribute name="type">
+                <dia:string>#Vector3&amp;amp;#</dia:string>
+              </dia:attribute>
+              <dia:attribute name="value">
+                              <dia:enum val="0"/>
+                            </dia:attribute>
+              <dia:attribute name="kind">
+                              <dia:enum val="0"/>
+                            </dia:attribute>
+            </dia:composite>
+                      </dia:attribute>
+	          </dia:composite>
+                <dia:composite type="umloperation">
+          <dia:attribute name="name">
+            <dia:string>#Redirect#</dia:string>
+          </dia:attribute>
+          <dia:attribute name="type">
+	              <dia:string>#void #</dia:string>
+	            </dia:attribute>
+          <dia:attribute name="visibility">
+            <dia:enum val="0"/>
+          </dia:attribute>
+          <dia:attribute name="abstract">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+          <dia:attribute name="class_scope">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+	            <dia:attribute name="parameters">
+                        <dia:composite type="umlparameter">
+              <dia:attribute name="name">
+                <dia:string>#dir#</dia:string>
+              </dia:attribute>
+              <dia:attribute name="type">
+                <dia:string>#Vector3&amp;amp;#</dia:string>
+              </dia:attribute>
+              <dia:attribute name="value">
+                              <dia:enum val="0"/>
+                            </dia:attribute>
+              <dia:attribute name="kind">
+                              <dia:enum val="0"/>
+                            </dia:attribute>
+            </dia:composite>
+                      </dia:attribute>
+	          </dia:composite>
+                <dia:composite type="umloperation">
+          <dia:attribute name="name">
+            <dia:string>#ResetParticle#</dia:string>
+          </dia:attribute>
+          <dia:attribute name="type">
+	              <dia:string>#void #</dia:string>
+	            </dia:attribute>
+          <dia:attribute name="visibility">
+            <dia:enum val="0"/>
+          </dia:attribute>
+          <dia:attribute name="abstract">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+          <dia:attribute name="class_scope">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+	            <dia:attribute name="parameters">
+                        <dia:composite type="umlparameter">
+              <dia:attribute name="name">
+                <dia:string>#index#</dia:string>
+              </dia:attribute>
+              <dia:attribute name="type">
+                <dia:string>#int#</dia:string>
+              </dia:attribute>
+              <dia:attribute name="value">
+                              <dia:enum val="0"/>
+                            </dia:attribute>
+              <dia:attribute name="kind">
+                              <dia:enum val="0"/>
+                            </dia:attribute>
+            </dia:composite>
+                      </dia:attribute>
+	          </dia:composite>
+                <dia:composite type="umloperation">
+          <dia:attribute name="name">
+            <dia:string>#Initialize#</dia:string>
+          </dia:attribute>
+          <dia:attribute name="type">
+	              <dia:string>#void #</dia:string>
+	            </dia:attribute>
+          <dia:attribute name="visibility">
+            <dia:enum val="0"/>
+          </dia:attribute>
+          <dia:attribute name="abstract">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+          <dia:attribute name="class_scope">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+	            <dia:attribute name="parameters">
+                        <dia:composite type="umlparameter">
+              <dia:attribute name="name">
+                <dia:string>#numParticles#</dia:string>
+              </dia:attribute>
+              <dia:attribute name="type">
+                <dia:string>#int32#</dia:string>
+              </dia:attribute>
+              <dia:attribute name="value">
+                              <dia:enum val="0"/>
+                            </dia:attribute>
+              <dia:attribute name="kind">
+                              <dia:enum val="0"/>
+                            </dia:attribute>
+            </dia:composite>
+                        <dia:composite type="umlparameter">
+              <dia:attribute name="name">
+                <dia:string>#maxLife#</dia:string>
+              </dia:attribute>
+              <dia:attribute name="type">
+                <dia:string>#int32#</dia:string>
+              </dia:attribute>
+              <dia:attribute name="value">
+                              <dia:enum val="0"/>
+                            </dia:attribute>
+              <dia:attribute name="kind">
+                              <dia:enum val="0"/>
+                            </dia:attribute>
+            </dia:composite>
+                        <dia:composite type="umlparameter">
+              <dia:attribute name="name">
+                <dia:string>#pos#</dia:string>
+              </dia:attribute>
+              <dia:attribute name="type">
+                <dia:string>#Vector3#</dia:string>
+              </dia:attribute>
+              <dia:attribute name="value">
+                              <dia:enum val="0"/>
+                            </dia:attribute>
+              <dia:attribute name="kind">
+                              <dia:enum val="0"/>
+                            </dia:attribute>
+            </dia:composite>
+                        <dia:composite type="umlparameter">
+              <dia:attribute name="name">
+                <dia:string>#dir#</dia:string>
+              </dia:attribute>
+              <dia:attribute name="type">
+                <dia:string>#Vector3#</dia:string>
+              </dia:attribute>
+              <dia:attribute name="value">
+                              <dia:enum val="0"/>
+                            </dia:attribute>
+              <dia:attribute name="kind">
+                              <dia:enum val="0"/>
+                            </dia:attribute>
+            </dia:composite>
+                      </dia:attribute>
+	          </dia:composite>
+                <dia:composite type="umloperation">
+          <dia:attribute name="name">
+            <dia:string>#Render#</dia:string>
+          </dia:attribute>
+          <dia:attribute name="type">
+	              <dia:string>#void #</dia:string>
+	            </dia:attribute>
+          <dia:attribute name="visibility">
+            <dia:enum val="0"/>
+          </dia:attribute>
+          <dia:attribute name="abstract">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+          <dia:attribute name="class_scope">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+	  	  <dia:attribute name = "parameters"/>
+	          </dia:composite>
+                <dia:composite type="umloperation">
+          <dia:attribute name="name">
+            <dia:string>#Update#</dia:string>
+          </dia:attribute>
+          <dia:attribute name="type">
+	              <dia:string>#void #</dia:string>
+	            </dia:attribute>
+          <dia:attribute name="visibility">
+            <dia:enum val="0"/>
+          </dia:attribute>
+          <dia:attribute name="abstract">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+          <dia:attribute name="class_scope">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+	  	  <dia:attribute name = "parameters"/>
+	          </dia:composite>
+              </dia:attribute>
+            <dia:attribute name="template">
+        <dia:boolean val="false"/>
+      </dia:attribute>
+      <dia:attribute name="templates"/>
+    </dia:object>
+    <dia:object type="UML - Class" version="0" id="O4">
+      <dia:attribute name="obj_pos">
+        <dia:point val="31.500,-6.750"/>
+      </dia:attribute>
+      <dia:attribute name="obj_bb">
+        <dia:rectangle val="31.500,-6.750;40.500,3.250"/>
+      </dia:attribute>
+      <dia:attribute name="elem_corner">
+        <dia:point val="31.500,-6.750"/>
+      </dia:attribute>
+      <dia:attribute name="elem_width">
+        <dia:real val="9.000"/>
+      </dia:attribute>
+      <dia:attribute name="elem_height">
+        <dia:real val="10.000"/>
+      </dia:attribute>
+      <dia:attribute name="name">
+        <dia:string>#ModelManager#</dia:string>
+      </dia:attribute>
+      <dia:attribute name="stereotype">
+              <dia:string/>
+            </dia:attribute>
+      <dia:attribute name="abstract">
+        <dia:boolean val="false"/>
+      </dia:attribute>
+      <dia:attribute name="suppress_attributes">
+        <dia:boolean val="false"/>
+      </dia:attribute>
+      <dia:attribute name="suppress_operations">
+        <dia:boolean val="false"/>
+      </dia:attribute>
+      <dia:attribute name="visible_attributes">
+        <dia:boolean val="true"/>
+      </dia:attribute>
+      <dia:attribute name="visible_operations">
+        <dia:boolean val="true"/>
+      </dia:attribute>
+      <dia:attribute name="foreground_color">
+        <dia:color val="#000000"/>
+      </dia:attribute>
+      <dia:attribute name="background_color">
+        <dia:color val="#ffffff"/>
+      </dia:attribute>
+
+            <dia:attribute name = "attributes"/>
+                  <dia:attribute name="operations">
+                <dia:composite type="umloperation">
+          <dia:attribute name="name">
+            <dia:string>#ModelManager#</dia:string>
+          </dia:attribute>
+          <dia:attribute name="type">
+	  	     <dia:string/>
+	            </dia:attribute>
+          <dia:attribute name="visibility">
+            <dia:enum val="0"/>
+          </dia:attribute>
+          <dia:attribute name="abstract">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+          <dia:attribute name="class_scope">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+	  	  <dia:attribute name = "parameters"/>
+	          </dia:composite>
+                <dia:composite type="umloperation">
+          <dia:attribute name="name">
+            <dia:string>#~ModelManager#</dia:string>
+          </dia:attribute>
+          <dia:attribute name="type">
+	  	     <dia:string/>
+	            </dia:attribute>
+          <dia:attribute name="visibility">
+            <dia:enum val="0"/>
+          </dia:attribute>
+          <dia:attribute name="abstract">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+          <dia:attribute name="class_scope">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+	  	  <dia:attribute name = "parameters"/>
+	          </dia:composite>
+                <dia:composite type="umloperation">
+          <dia:attribute name="name">
+            <dia:string>#Initialize#</dia:string>
+          </dia:attribute>
+          <dia:attribute name="type">
+	              <dia:string>#void #</dia:string>
+	            </dia:attribute>
+          <dia:attribute name="visibility">
+            <dia:enum val="0"/>
+          </dia:attribute>
+          <dia:attribute name="abstract">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+          <dia:attribute name="class_scope">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+	  	  <dia:attribute name = "parameters"/>
+	          </dia:composite>
+                <dia:composite type="umloperation">
+          <dia:attribute name="name">
+            <dia:string>#GetBoat1#</dia:string>
+          </dia:attribute>
+          <dia:attribute name="type">
+	              <dia:string>#RenderData*#</dia:string>
+	            </dia:attribute>
+          <dia:attribute name="visibility">
+            <dia:enum val="0"/>
+          </dia:attribute>
+          <dia:attribute name="abstract">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+          <dia:attribute name="class_scope">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+	  	  <dia:attribute name = "parameters"/>
+	          </dia:composite>
+                <dia:composite type="umloperation">
+          <dia:attribute name="name">
+            <dia:string>#GetBoat2#</dia:string>
+          </dia:attribute>
+          <dia:attribute name="type">
+	              <dia:string>#RenderData*#</dia:string>
+	            </dia:attribute>
+          <dia:attribute name="visibility">
+            <dia:enum val="0"/>
+          </dia:attribute>
+          <dia:attribute name="abstract">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+          <dia:attribute name="class_scope">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+	  	  <dia:attribute name = "parameters"/>
+	          </dia:composite>
+                <dia:composite type="umloperation">
+          <dia:attribute name="name">
+            <dia:string>#GetChest#</dia:string>
+          </dia:attribute>
+          <dia:attribute name="type">
+	              <dia:string>#RenderData*#</dia:string>
+	            </dia:attribute>
+          <dia:attribute name="visibility">
+            <dia:enum val="0"/>
+          </dia:attribute>
+          <dia:attribute name="abstract">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+          <dia:attribute name="class_scope">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+	  	  <dia:attribute name = "parameters"/>
+	          </dia:composite>
+                <dia:composite type="umloperation">
+          <dia:attribute name="name">
+            <dia:string>#GetRandomSeascapeModel#</dia:string>
+          </dia:attribute>
+          <dia:attribute name="type">
+	              <dia:string>#RenderData*#</dia:string>
+	            </dia:attribute>
+          <dia:attribute name="visibility">
+            <dia:enum val="0"/>
+          </dia:attribute>
+          <dia:attribute name="abstract">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+          <dia:attribute name="class_scope">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+	  	  <dia:attribute name = "parameters"/>
+	          </dia:composite>
+                <dia:composite type="umloperation">
+          <dia:attribute name="name">
+            <dia:string>#GetIsland1#</dia:string>
+          </dia:attribute>
+          <dia:attribute name="type">
+	              <dia:string>#RenderData*#</dia:string>
+	            </dia:attribute>
+          <dia:attribute name="visibility">
+            <dia:enum val="0"/>
+          </dia:attribute>
+          <dia:attribute name="abstract">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+          <dia:attribute name="class_scope">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+	  	  <dia:attribute name = "parameters"/>
+	          </dia:composite>
+                <dia:composite type="umloperation">
+          <dia:attribute name="name">
+            <dia:string>#GetIsland2#</dia:string>
+          </dia:attribute>
+          <dia:attribute name="type">
+	              <dia:string>#RenderData*#</dia:string>
+	            </dia:attribute>
+          <dia:attribute name="visibility">
+            <dia:enum val="0"/>
+          </dia:attribute>
+          <dia:attribute name="abstract">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+          <dia:attribute name="class_scope">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+	  	  <dia:attribute name = "parameters"/>
+	          </dia:composite>
+                <dia:composite type="umloperation">
+          <dia:attribute name="name">
+            <dia:string>#GetCheckPoint#</dia:string>
+          </dia:attribute>
+          <dia:attribute name="type">
+	              <dia:string>#RenderData*#</dia:string>
+	            </dia:attribute>
+          <dia:attribute name="visibility">
+            <dia:enum val="0"/>
+          </dia:attribute>
+          <dia:attribute name="abstract">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+          <dia:attribute name="class_scope">
+            <dia:boolean val="false"/>
+          </dia:attribute>
+	  	  <dia:attribute name = "parameters"/>
+	          </dia:composite>
+              </dia:attribute>
+            <dia:attribute name="template">
+        <dia:boolean val="false"/>
+      </dia:attribute>
+      <dia:attribute name="templates"/>
+    </dia:object>
+ </dia:layer>
+</dia:diagram>
